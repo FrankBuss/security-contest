@@ -55,7 +55,7 @@ object MuraxConfig{
   def default : MuraxConfig = default(false)
   def default(withXip : Boolean) =  MuraxConfig(
     coreFrequency         = 12 MHz,
-    onChipRamSize         = 8 kB,
+    onChipRamSize         = 256 kB,
     onChipRamHexFile      = null,
     pipelineDBus          = true,
     pipelineMainBus       = false,
@@ -70,19 +70,21 @@ object MuraxConfig{
     hardwareBreakpointCount = if(withXip) 3 else 0,
     cpuPlugins = ArrayBuffer( //DebugPlugin added by the toplevel
       new IBusSimplePlugin(
-        resetVector = if(withXip) 0xF001E000l else 0x80000000l,
+        resetVector = if(withXip) 0xF001E000l else 0x40000000l,
         cmdForkOnSecondStage = true,
         cmdForkPersistence = withXip, //Required by the Xip controller
         prediction = NONE,
         catchAccessFault = false,
-        compressedGen = false
+        compressedGen = true
       ),
       new DBusSimplePlugin(
         catchAddressMisaligned = false,
         catchAccessFault = false,
         earlyInjection = false
       ),
-      new CsrPlugin(CsrPluginConfig.smallest(mtvecInit = if(withXip) 0xE0040020l else 0x80000020l)),
+      new MulPlugin,
+      new DivPlugin,
+       new CsrPlugin(CsrPluginConfig.all(mtvecInit = if(withXip) 0xE0040020l else 0x40000010l)),
       new DecoderSimplePlugin(
         catchIllegalInstruction = false
       ),
@@ -260,7 +262,7 @@ case class Murax(config : MuraxConfig) extends Component{
       onChipRamHexFile = onChipRamHexFile,
       pipelinedMemoryBusConfig = pipelinedMemoryBusConfig
     )
-    mainBusMapping += ram.io.bus -> (0x80000000l, onChipRamSize)
+    mainBusMapping += ram.io.bus -> (0x40000000l, onChipRamSize)
 
     val apbBridge = new PipelinedMemoryBusToApbBridge(
       apb3Config = Apb3Config(
@@ -498,7 +500,7 @@ object MuraxDhrystoneReadyMulDivStatic{
         catchAddressMisaligned = false
       )
       config.cpuPlugins += new IBusSimplePlugin(
-        resetVector = 0x80000000l,
+        resetVector = 0x40000000l,
         cmdForkOnSecondStage = true,
         cmdForkPersistence = false,
         prediction = STATIC,
