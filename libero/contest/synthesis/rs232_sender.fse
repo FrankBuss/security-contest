@@ -1,0 +1,12 @@
+
+fsm_encoding {9452451} sequential
+
+fsm_state_encoding {9452451} wait_for_strobe {00}
+
+fsm_state_encoding {9452451} send_start_bit {01}
+
+fsm_state_encoding {9452451} send_bits {10}
+
+fsm_state_encoding {9452451} send_stop_bit {11}
+
+fsm_registers {9452451} {state[1]}  {state[0]} 

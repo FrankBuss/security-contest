@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Sun Sep 15 17:30:06 2019
+Project   :  W:\projects\security-contest\libero\contest
+Component :  JTAG
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    W:/projects/security-contest/libero/contest/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug.v
+    W:/projects/security-contest/libero/contest/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug_bufd.v
+    W:/projects/security-contest/libero/contest/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug_uj_jtag.v
+    W:/projects/security-contest/libero/contest/component/Actel/DirectCore/COREJTAGDEBUG/3.1.100/core/corejtagdebug_ujtag_wrapper.v
+    W:/projects/security-contest/libero/contest/component/work/JTAG/JTAG.v
+

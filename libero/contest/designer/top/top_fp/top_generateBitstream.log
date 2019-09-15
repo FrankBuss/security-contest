@@ -1,0 +1,20 @@
+Software Version: 12.600.0.14
+Opened 'W:\projects\security-contest\libero\contest\designer\top\top_fp\top.pro'
+The 'open_project' command succeeded.
+PDB file 'W:\projects\security-contest\libero\contest\designer\top\top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Sun Sep 15 17:58:04 2019 (Elapsed time 00:00:01)
+The 'load_programming_data' command succeeded.
+File/Folder 'W:\projects\security-contest\libero\contest\designer\top\top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'W:\projects\security-contest\libero\contest\designer\top\top.ppd'; file programs Fabric.
+Fabric component bitstream digest: db23198a55efa5a864087a829440b59ac0e6d5b672f422a1698788a78a3b3274
+Finished: Sun Sep 15 17:58:21 2019 (Elapsed time 00:00:17)
+
+The 'export_single_ppd' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file W:\projects\security-contest\libero\contest\designer\top\top_fp\top.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

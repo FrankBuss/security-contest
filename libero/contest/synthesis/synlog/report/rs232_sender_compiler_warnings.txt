@@ -1,0 +1,2 @@
+@W: CL249 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":45:2:45:3|Initial value is not supported on state machine state
+

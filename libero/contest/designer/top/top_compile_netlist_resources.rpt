@@ -1,0 +1,201 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+Date: Sun Sep 15 17:55:33 2019
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL025        |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------------------+
+| Topcell | top                                                          |
+| Format  | Verilog                                                      |
+| Source  | W:\projects\security-contest\libero\contest\synthesis\top.vm |
++---------+--------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 4434 | 27696 | 16.01      |
+| DFF                       | 2996 | 27696 | 10.82      |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 7    | 138   | 5.07       |
+| -- Single-ended I/O       | 7    | 138   | 5.07       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 4    | 34    | 11.76      |
+| RAM1K18                   | 16   | 31    | 51.61      |
+| MACC                      | 4    | 34    | 11.76      |
+| Chip Globals              | 5    | 16    | 31.25      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| HPMS                      | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 3570 | 2132 |
+| RAM64x18 Interface Logic | 144  | 144  |
+| RAM1K18 Interface Logic  | 576  | 576  |
+| MACC Interface Logic     | 144  | 144  |
+| Total Used               | 4434 | 2996 |
++--------------------------+------+------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 8    |
+| 7      | 2    |
+| 9      | 3    |
+| 16     | 3    |
+| 17     | 1    |
+| 21     | 1    |
+| 27     | 1    |
+| 30     | 1    |
+| 31     | 1    |
+| 32     | 4    |
+| 33     | 4    |
+| 35     | 1    |
+| 36     | 1    |
+| 64     | 1    |
+| 65     | 1    |
+| Total  | 33   |
++--------+------+
+
+Detailed MACC Resource Usage
++--------+------+
+| Length | Used |
+| 1      | 4    |
+| Total  | 4    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 5            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  2    |  5     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  7    | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                          |
++--------+---------+-----------------------------------------------------------------------------------------------+
+| 2068   | INT_NET | Net   : MainClockCCC_0_GL0                                                                    |
+|        |         | Driver: MainClockCCC_0/MainClockCCC_0/GL0_INST/U0_RGB1                                        |
+|        |         | Source: NETLIST                                                                               |
+| 362    | INT_NET | Net   : Murax_0/resetCtrl_systemReset_Z                                                       |
+|        |         | Driver: Murax_0/resetCtrl_systemReset_RNI95K/U0_RGB1                                          |
+|        |         | Source: NETLIST                                                                               |
+| 17     | INT_NET | Net   : JTAG_0/JTAG_0/iUDRCK                                                                  |
+|        |         | Driver: JTAG_0/JTAG_0/genblk1.genblk1.genblk1.UJTAG_inst/UDRCK_inferred_clock_RNIK1C2/U0_RGB1 |
+|        |         | Source: NETLIST                                                                               |
+| 17     | INT_NET | Net   : JTAG_0/JTAG_0/iURSTB                                                                  |
+|        |         | Driver: JTAG_0/JTAG_0/genblk1.genblk1.genblk1.UJTAG_inst/UJTAG_inst_RNIQRO2/U0_RGB1           |
+|        |         | Source: NETLIST                                                                               |
+| 13     | INT_NET | Net   : Murax_0/resetCtrl_mainClkReset_Z                                                      |
+|        |         | Driver: Murax_0/resetCtrl_mainClkReset_RNI3J54/U0_RGB1                                        |
+|        |         | Source: NETLIST                                                                               |
++--------+---------+-----------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                            |
++--------+---------+---------------------------------------------------------------------------------+
+| 220    | INT_NET | Net   : Murax_0/system_cpu/N_1582_i                                             |
+|        |         | Driver: Murax_0/system_cpu/memory_arbitration_haltItself_i                      |
+| 206    | INT_NET | Net   : Murax_0/system_cpu/execute_arbitration_isStuck_i                        |
+|        |         | Driver: Murax_0/system_cpu/execute_arbitration_isStuck_2_1_RNI2EBA2             |
+| 90     | INT_NET | Net   : Murax_0/system_cpu_dBus_cmd_payload_size[0]                             |
+|        |         | Driver: Murax_0/system_cpu/decode_to_execute_INSTRUCTION[12]                    |
+| 89     | INT_NET | Net   : Murax_0/system_cpu/risingOccupancy                                      |
+|        |         | Driver: Murax_0/system_cpu/IBusSimplePlugin_rspJoin_rspBuffer_c/risingOccupancy |
+| 83     | INT_NET | Net   : un1_DUT_TCK                                                             |
+|        |         | Driver: JTAG_0/JTAG_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK                       |
+| 75     | INT_NET | Net   : Murax_0/system_cpu_dBus_cmd_payload_size[1]                             |
+|        |         | Driver: Murax_0/system_cpu/decode_to_execute_INSTRUCTION[13]                    |
+| 74     | INT_NET | Net   : Murax_0/_zz_10_                                                         |
+|        |         | Driver: Murax_0/system_mainBusArbiter/_zz_10_                                   |
+| 69     | INT_NET | Net   : Murax_0/system_cpu/IBusSimplePlugin_decompressor_raw[14]                |
+|        |         | Driver: Murax_0/system_cpu/IBusSimplePlugin_decompressor_raw[14]                |
+| 69     | INT_NET | Net   : CFG0_GND_INST_NET                                                       |
+|        |         | Driver: CFG0_GND_INST                                                           |
+| 68     | INT_NET | Net   : Murax_0/system_cpu/un3_IBusSimplePlugin_jump_pcLoad_valid_i_Z           |
+|        |         | Driver: Murax_0/system_cpu/un3_IBusSimplePlugin_jump_pcLoad_valid               |
++--------+---------+---------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                            |
++--------+---------+---------------------------------------------------------------------------------+
+| 220    | INT_NET | Net   : Murax_0/system_cpu/N_1582_i                                             |
+|        |         | Driver: Murax_0/system_cpu/memory_arbitration_haltItself_i                      |
+| 206    | INT_NET | Net   : Murax_0/system_cpu/execute_arbitration_isStuck_i                        |
+|        |         | Driver: Murax_0/system_cpu/execute_arbitration_isStuck_2_1_RNI2EBA2             |
+| 90     | INT_NET | Net   : Murax_0/system_cpu_dBus_cmd_payload_size[0]                             |
+|        |         | Driver: Murax_0/system_cpu/decode_to_execute_INSTRUCTION[12]                    |
+| 89     | INT_NET | Net   : Murax_0/system_cpu/risingOccupancy                                      |
+|        |         | Driver: Murax_0/system_cpu/IBusSimplePlugin_rspJoin_rspBuffer_c/risingOccupancy |
+| 83     | INT_NET | Net   : un1_DUT_TCK                                                             |
+|        |         | Driver: JTAG_0/JTAG_0/genblk3.genblk1.UJ_JTAG/un1_DUT_TCK                       |
+| 75     | INT_NET | Net   : Murax_0/system_cpu_dBus_cmd_payload_size[1]                             |
+|        |         | Driver: Murax_0/system_cpu/decode_to_execute_INSTRUCTION[13]                    |
+| 74     | INT_NET | Net   : Murax_0/_zz_10_                                                         |
+|        |         | Driver: Murax_0/system_mainBusArbiter/_zz_10_                                   |
+| 69     | INT_NET | Net   : Murax_0/system_cpu/IBusSimplePlugin_decompressor_raw[14]                |
+|        |         | Driver: Murax_0/system_cpu/IBusSimplePlugin_decompressor_raw[14]                |
+| 69     | INT_NET | Net   : CFG0_GND_INST_NET                                                       |
+|        |         | Driver: CFG0_GND_INST                                                           |
+| 68     | INT_NET | Net   : Murax_0/system_cpu/un3_IBusSimplePlugin_jump_pcLoad_valid_i_Z           |
+|        |         | Driver: Murax_0/system_cpu/un3_IBusSimplePlugin_jump_pcLoad_valid               |
++--------+---------+---------------------------------------------------------------------------------+
+

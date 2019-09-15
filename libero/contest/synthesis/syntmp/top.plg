@@ -1,0 +1,23 @@
+@P:  Worst Slack : -0.895
+@P:  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock - Estimated Frequency : 104.9 MHz
+@P:  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock - Estimated Period : 9.531
+@P:  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock - Requested Period : 10.000
+@P:  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock - Slack : 0.234
+@P:  MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 91.8 MHz
+@P:  MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 10.895
+@P:  MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock - Slack : -0.895
+@P:  System - Estimated Frequency : 178.2 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 5.612
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 4.388
+@P: top Part : m2gl025vf256std
+@P: top Register bits  : 2147 
+@P: top DSP Blocks  : 4
+@P: top I/O primitives : 7
+@P: top RAM1K18 :  32
+@P: top RAM64x18 :  4
+@P:  CPU Time : 0h:00m:24s

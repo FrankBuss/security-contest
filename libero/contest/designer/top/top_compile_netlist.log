@@ -1,0 +1,45 @@
+W:/projects/security-contest/libero/contest/synthesis/top.vm(5705): WARNING: net 'N_3928' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63917): WARNING: net 'N_3929' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63918): WARNING: net 'N_3930' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63919): WARNING: net 'N_3931' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63920): WARNING: net 'N_3932' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63921): WARNING: net 'N_3933' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63922): WARNING: net 'N_3934' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63923): WARNING: net 'N_3935' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63924): WARNING: net 'N_3936' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63925): WARNING: net 'N_3937' does not have a driver (VDB-1002)
+W:/projects/security-contest/libero/contest/synthesis/top.vm(63926): WARNING: net 'N_3938' does not have a driver (VDB-1002)
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       5 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     4 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    2099   0      0      'MainClockCCC_0/MainClockCCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    17     0      1      'JTAG_0/JTAG_0/genblk1.genblk1.genblk1.UJTAG_inst/UDRCK_inferred_clock_RNIK1C2' 
+    0      363    0      'Murax_0/resetCtrl_systemReset_RNI95K' 
+    0      17     0      'JTAG_0/JTAG_0/genblk1.genblk1.genblk1.UJTAG_inst/UJTAG_inst_RNIQRO2' 
+    0      13     0      'Murax_0/resetCtrl_mainClkReset_RNI3J54' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'JTAG_0/JTAG_0/genblk1.genblk1.genblk1.UJTAG_inst/UDRCK_inferred_clock_RNIK1C2'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+
+Error:  Number of RAM1K18 modules (32) exceeds the limit (31) of the selected device.
+Error:  The command 'compile' failed.
+Error:  Line 98
+Error running script

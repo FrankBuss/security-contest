@@ -1,0 +1,111 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Top entity is set to Blinker.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG775 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":22:7:22:19|Component COREJTAGDEBUG not found in library "work" or "__hyper__lib__", but found in library COREJTAGDEBUG_LIB
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":22:7:22:19|Synthesizing module COREJTAGDEBUG in library COREJTAGDEBUG_LIB.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":687:7:687:11|Synthesizing module UJTAG in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v":39:7:39:33|Synthesizing module COREJTAGDEBUG_UJTAG_WRAPPER in library COREJTAGDEBUG_LIB.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v":20:7:20:24|Synthesizing module corejtagdebug_bufd in library COREJTAGDEBUG_LIB.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":234:7:234:10|Synthesizing module BUFD in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v":47:7:47:27|Synthesizing module COREJTAGDEBUG_UJ_JTAG in library COREJTAGDEBUG_LIB.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\JTAG\JTAG.v":9:7:9:10|Synthesizing module JTAG in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":268:7:268:11|Synthesizing module INBUF in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v":5:7:5:38|Synthesizing module MainClockCCC_MainClockCCC_0_FCCC in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC.v":9:7:9:18|Synthesizing module MainClockCCC in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1053:7:1053:17|Synthesizing module BufferCC_3_ in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1067:7:1067:24|Synthesizing module MuraxMasterArbiter in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":536:7:536:26|Synthesizing module StreamFifoLowLatency in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1160:7:1160:14|Synthesizing module VexRiscv in library work.
+@N: CG793 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5231:6:5231:13|Ignoring system task $display
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":2485:2:2485:7|Found RAM RegFilePlugin_regFile, depth=32, width=32
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":2485:2:2485:7|Found RAM RegFilePlugin_regFile, depth=32, width=32
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_code[0] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_code[1] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_targetPrivilege[0] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_targetPrivilege[1] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit execute_to_memory_BRANCH_CALC[0] is always 0.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_exceptionPortCtrl_exceptionContext_code[2] is always 0.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":108:7:108:17|Synthesizing module BufferCC_1_ in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":664:7:664:20|Synthesizing module FlowCCByToggle in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5656:7:5656:16|Synthesizing module JtagBridge in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5952:7:5952:20|Synthesizing module SystemDebugger in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6031:7:6031:32|Synthesizing module MuraxPipelinedMemoryBusRam in library work.
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol3, depth=12288, width=8
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol2, depth=12288, width=8
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol1, depth=12288, width=8
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol0, depth=12288, width=8
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6095:7:6095:35|Synthesizing module PipelinedMemoryBusToApbBridge in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":726:7:726:17|Synthesizing module BufferCC_2_ in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6183:7:6183:14|Synthesizing module Apb3Gpio in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":123:7:123:16|Synthesizing module UartCtrlTx in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":87:7:87:14|Synthesizing module BufferCC in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":332:7:332:16|Synthesizing module UartCtrlRx in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":741:7:741:14|Synthesizing module UartCtrl in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":825:7:825:16|Synthesizing module StreamFifo in library work.
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":872:2:872:7|Found RAM logic_ram, depth=16, width=8
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6275:7:6275:18|Synthesizing module Apb3UartCtrl in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":972:7:972:15|Synthesizing module Prescaler in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":989:7:989:11|Synthesizing module Timer in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1034:7:1034:19|Synthesizing module InterruptCtrl in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6493:7:6493:20|Synthesizing module MuraxApb3Timer in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6896:7:6896:17|Synthesizing module Apb3Decoder in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6942:7:6942:16|Synthesizing module Apb3Router in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":7029:7:7029:11|Synthesizing module Murax in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET in library work.
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+@N: CG794 :"W:\projects\security-contest\libero\contest\component\work\top\top.v":99:8:99:16|Using module Blinker from library work
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6976:14:6976:34|Input resetCtrl_systemReset is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":977:14:977:34|Input resetCtrl_systemReset is unused.
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":422:2:422:7|Trying to extract state machine for register stateMachine_state.
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":251:2:251:7|Trying to extract state machine for register stateMachine_state.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":730:14:730:34|Input resetCtrl_systemReset is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6101:19:6101:56|Input io_pipelinedMemoryBus_cmd_payload_mask is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6111:14:6111:29|Input io_apb_PSLVERROR is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5958:14:5958:32|Input io_remote_rsp_ready is unused.
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5909:2:5909:7|Trying to extract state machine for register jtag_tap_fsm_state.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5662:14:5662:32|Input io_remote_cmd_ready is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":112:14:112:35|Input resetCtrl_mainClkReset is unused.
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":4894:2:4894:7|Trying to extract state machine for register _zz_188_.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1184:14:1184:27|Input dBus_rsp_error is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":42:8:42:16|Input TGT_TDO_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":49:8:49:16|Input TGT_TDO_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":56:8:56:16|Input TGT_TDO_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":63:8:63:16|Input TGT_TDO_4 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":70:8:70:16|Input TGT_TDO_5 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":77:8:77:16|Input TGT_TDO_6 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":84:8:84:16|Input TGT_TDO_7 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":91:8:91:16|Input TGT_TDO_8 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":98:8:98:16|Input TGT_TDO_9 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":105:8:105:17|Input TGT_TDO_10 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":112:8:112:17|Input TGT_TDO_11 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":119:8:119:17|Input TGT_TDO_12 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":126:8:126:17|Input TGT_TDO_13 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":133:8:133:17|Input TGT_TDO_14 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":140:8:140:17|Input TGT_TDO_15 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":142:8:142:52|Input UJTAG_BYPASS_TCK_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":143:8:143:52|Input UJTAG_BYPASS_TMS_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":144:8:144:52|Input UJTAG_BYPASS_TDI_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":145:8:145:54|Input UJTAG_BYPASS_TRSTB_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":149:8:149:52|Input UJTAG_BYPASS_TCK_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":150:8:150:52|Input UJTAG_BYPASS_TMS_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":151:8:151:52|Input UJTAG_BYPASS_TDI_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":152:8:152:54|Input UJTAG_BYPASS_TRSTB_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":156:8:156:52|Input UJTAG_BYPASS_TCK_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":157:8:157:52|Input UJTAG_BYPASS_TMS_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":158:8:158:52|Input UJTAG_BYPASS_TDI_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":159:8:159:54|Input UJTAG_BYPASS_TRSTB_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":163:8:163:52|Input UJTAG_BYPASS_TCK_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":164:8:164:52|Input UJTAG_BYPASS_TMS_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":165:8:165:52|Input UJTAG_BYPASS_TDI_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":166:8:166:54|Input UJTAG_BYPASS_TRSTB_3 is unused.
+@N:"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Top entity is set to Blinker.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Synthesizing work.blinker.behavioral.
+@N|Running in 64-bit mode
+

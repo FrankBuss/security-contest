@@ -1,0 +1,2 @@
+@E: CD722 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":14:2:14:13|Generic system_speed has not been given a value
+

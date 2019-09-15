@@ -1,0 +1,822 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2GL025VF256STD (Microsemi)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2147               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top:	2147 (36.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2881               100 %                
+ARI1          691                100 %                
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top:	3575 (61.16 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     4                  100 %                
+=================================================
+Total DSP in the block top:	4 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1K18      32                 100 %                
+RAM64X18     4                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block top:	36 (0.62 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     5                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block top:	5 (0.09 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       7                  100 %                
+=================================================
+Total IO PADS in the block top:	7 (0.12 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   Blinker   ########
+Instance path:   top.Blinker                                 
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      29                 1.35 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.Blinker:	29 (0.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      20                 0.6940 %             
+ARI1     27                 3.91 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.Blinker:	47 (0.80 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   JTAG   ########
+Instance path:   top.JTAG                                 
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 0.7920 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.JTAG:	17 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           120                4.17 %               
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.JTAG:	121 (2.07 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  40 %                 
+===================================================
+Total GLOBAL BUFFERS in the block top.JTAG:	2 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   COREJTAGDEBUG_Z1_layer0   ########
+Instance path:   JTAG.COREJTAGDEBUG_Z1_layer0                                
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 0.7920 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block JTAG.COREJTAGDEBUG_Z1_layer0:	17 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           120                4.17 %               
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block JTAG.COREJTAGDEBUG_Z1_layer0:	121 (2.07 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  40 %                 
+===================================================
+Total GLOBAL BUFFERS in the block JTAG.COREJTAGDEBUG_Z1_layer0:	2 (0.03 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREJTAGDEBUG_UJTAG_WRAPPER   ########
+Instance path:   COREJTAGDEBUG_Z1_layer0.COREJTAGDEBUG_UJTAG_WRAPPER             
+=================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1                  0.03470 %            
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREJTAGDEBUG_Z1_layer0.COREJTAGDEBUG_UJTAG_WRAPPER:	2 (0.03 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  40 %                 
+===================================================
+Total GLOBAL BUFFERS in the block COREJTAGDEBUG_Z1_layer0.COREJTAGDEBUG_UJTAG_WRAPPER:	2 (0.03 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0   ########
+Instance path:   COREJTAGDEBUG_Z1_layer0.COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0             
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 0.7920 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREJTAGDEBUG_Z1_layer0.COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0:	17 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      118                4.1 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block COREJTAGDEBUG_Z1_layer0.COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0:	118 (2.02 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   MainClockCCC   ########
+Instance path:   top.MainClockCCC                                 
+==================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.MainClockCCC:	1 (0.02 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  20 %                 
+===================================================
+Total GLOBAL BUFFERS in the block top.MainClockCCC:	1 (0.02 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  14.3 %               
+=================================================
+Total IO PADS in the block top.MainClockCCC:	1 (0.02 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MainClockCCC_MainClockCCC_0_FCCC   ########
+Instance path:   MainClockCCC.MainClockCCC_MainClockCCC_0_FCCC                        
+======================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block MainClockCCC.MainClockCCC_MainClockCCC_0_FCCC:	1 (0.02 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  20 %                 
+===================================================
+Total GLOBAL BUFFERS in the block MainClockCCC.MainClockCCC_MainClockCCC_0_FCCC:	1 (0.02 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  14.3 %               
+=================================================
+Total IO PADS in the block MainClockCCC.MainClockCCC_MainClockCCC_0_FCCC:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   Murax   ########
+Instance path:   top.Murax                                 
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2101               97.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.Murax:	2101 (35.95 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2741               95.1 %               
+ARI1     664                96.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top.Murax:	3405 (58.25 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     4                  100 %                
+=================================================
+Total DSP in the block top.Murax:	4 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1K18      32                 100 %                
+RAM64X18     4                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block top.Murax:	36 (0.62 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  40 %                 
+===================================================
+Total GLOBAL BUFFERS in the block top.Murax:	2 (0.03 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   Apb3Decoder   ########
+Instance path:   Murax.Apb3Decoder                               
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1740 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.Apb3Decoder:	5 (0.09 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   Apb3Gpio   ########
+Instance path:   Murax.Apb3Gpio                               
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      64                 2.98 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.Apb3Gpio:	64 (1.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      40                 1.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.Apb3Gpio:	40 (0.68 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Apb3Router   ########
+Instance path:   Murax.Apb3Router                               
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.09320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.Apb3Router:	2 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      43                 1.49 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.Apb3Router:	43 (0.74 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   Apb3UartCtrl   ########
+Instance path:   Murax.Apb3UartCtrl                               
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      79                 3.68 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.Apb3UartCtrl:	79 (1.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      141                4.89 %               
+ARI1     26                 3.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.Apb3UartCtrl:	167 (2.86 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block Murax.Apb3UartCtrl:	2 (0.03 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   StreamFifo   ########
+Instance path:   Apb3UartCtrl.StreamFifo                        
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 0.4660 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Apb3UartCtrl.StreamFifo:	10 (0.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      25                 0.8680 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Apb3UartCtrl.StreamFifo:	25 (0.43 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  25 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block Apb3UartCtrl.StreamFifo:	1 (0.02 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   StreamFifo_0   ########
+Instance path:   Apb3UartCtrl.StreamFifo_0                        
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 0.4660 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Apb3UartCtrl.StreamFifo_0:	10 (0.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      23                 0.7980 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Apb3UartCtrl.StreamFifo_0:	23 (0.39 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  25 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block Apb3UartCtrl.StreamFifo_0:	1 (0.02 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   UartCtrl   ########
+Instance path:   Apb3UartCtrl.UartCtrl                        
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      57                 2.65 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Apb3UartCtrl.UartCtrl:	57 (0.98 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      74                 2.57 %               
+ARI1     26                 3.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Apb3UartCtrl.UartCtrl:	100 (1.71 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   UartCtrlRx   ########
+Instance path:   UartCtrl.UartCtrlRx                            
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      27                 1.26 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UartCtrl.UartCtrlRx:	27 (0.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      42                 1.46 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UartCtrl.UartCtrlRx:	42 (0.72 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   BufferCC   ########
+Instance path:   UartCtrlRx.BufferCC                          
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.09320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UartCtrlRx.BufferCC:	2 (0.03 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   UartCtrlTx   ########
+Instance path:   UartCtrl.UartCtrlTx                            
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 0.4660 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UartCtrl.UartCtrlTx:	10 (0.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      26                 0.9020 %             
+ARI1     5                  0.7240 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block UartCtrl.UartCtrlTx:	31 (0.53 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   BufferCC_3_   ########
+Instance path:   Murax.BufferCC_3_                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.09320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.BufferCC_3_:	2 (0.03 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   JtagBridge   ########
+Instance path:   Murax.JtagBridge                               
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      122                5.68 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.JtagBridge:	122 (2.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      77                 2.67 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.JtagBridge:	77 (1.32 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   FlowCCByToggle   ########
+Instance path:   JtagBridge.FlowCCByToggle                          
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  0.4190 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block JtagBridge.FlowCCByToggle:	9 (0.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.06940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block JtagBridge.FlowCCByToggle:	2 (0.03 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   BufferCC_1_   ########
+Instance path:   FlowCCByToggle.BufferCC_1_                      
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.09320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FlowCCByToggle.BufferCC_1_:	2 (0.03 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   MuraxApb3Timer   ########
+Instance path:   Murax.MuraxApb3Timer                               
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      108                5.03 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.MuraxApb3Timer:	108 (1.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      121                4.2 %                
+ARI1     72                 10.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.MuraxApb3Timer:	193 (3.30 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   InterruptCtrl   ########
+Instance path:   MuraxApb3Timer.InterruptCtrl                      
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.09320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MuraxApb3Timer.InterruptCtrl:	2 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1740 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block MuraxApb3Timer.InterruptCtrl:	5 (0.09 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Prescaler   ########
+Instance path:   MuraxApb3Timer.Prescaler                      
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 0.7450 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MuraxApb3Timer.Prescaler:	16 (0.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.06940 %            
+ARI1     24                 3.47 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MuraxApb3Timer.Prescaler:	26 (0.44 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   Timer   ########
+Instance path:   MuraxApb3Timer.Timer                      
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 0.7920 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MuraxApb3Timer.Timer:	17 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1740 %             
+ARI1     24                 3.47 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MuraxApb3Timer.Timer:	29 (0.50 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   Timer_0   ########
+Instance path:   MuraxApb3Timer.Timer_0                      
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 0.7920 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MuraxApb3Timer.Timer_0:	17 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1740 %             
+ARI1     24                 3.47 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MuraxApb3Timer.Timer_0:	29 (0.50 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   MuraxMasterArbiter   ########
+Instance path:   Murax.MuraxMasterArbiter                               
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.09320 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.MuraxMasterArbiter:	2 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      48                 1.67 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.MuraxMasterArbiter:	48 (0.82 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   MuraxPipelinedMemoryBusRam   ########
+Instance path:   Murax.MuraxPipelinedMemoryBusRam                               
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      65                 3.03 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.MuraxPipelinedMemoryBusRam:	65 (1.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      69                 2.4 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.MuraxPipelinedMemoryBusRam:	69 (1.18 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     32                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block Murax.MuraxPipelinedMemoryBusRam:	32 (0.55 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   PipelinedMemoryBusToApbBridge   ########
+Instance path:   Murax.PipelinedMemoryBusToApbBridge                               
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      34                 1.58 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.PipelinedMemoryBusToApbBridge:	34 (0.58 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1740 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.PipelinedMemoryBusToApbBridge:	5 (0.09 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   SystemDebugger   ########
+Instance path:   Murax.SystemDebugger                               
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      78                 3.63 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.SystemDebugger:	78 (1.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 0.4170 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.SystemDebugger:	12 (0.21 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   VexRiscv   ########
+Instance path:   Murax.VexRiscv                               
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1462               68.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Murax.VexRiscv:	1462 (25.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2142               74.3 %               
+ARI1     559                80.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Murax.VexRiscv:	2701 (46.21 % Utilization)
+
+
+DSP
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACC     4                  100 %                
+=================================================
+Total DSP in the block Murax.VexRiscv:	4 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block Murax.VexRiscv:	2 (0.03 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   StreamFifoLowLatency   ########
+Instance path:   VexRiscv.StreamFifoLowLatency                            
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      33                 1.54 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block VexRiscv.StreamFifoLowLatency:	33 (0.56 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      45                 1.56 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block VexRiscv.StreamFifoLowLatency:	45 (0.77 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

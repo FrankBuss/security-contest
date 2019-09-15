@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin JTAG_0:TGT_TRSTB_0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/JTAG_0:TGT_TRSTB_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MainClockCCC_0:LOCK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/MainClockCCC_0:LOCK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Murax_0:io_gpioA_write[31:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/Murax_0:io_gpioA_write</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Murax_0:io_gpioA_writeEnable[31:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/Murax_0:io_gpioA_writeEnable</crossprobe>
+  </drc>
+</drcreport>

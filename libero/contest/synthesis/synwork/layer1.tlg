@@ -1,0 +1,10 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Synthesizing work.blinker.behavioral.
+Post processing for work.blinker.behavioral
+Running optimization stage 1 on Blinker .......
+Running optimization stage 2 on Blinker .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: W:\projects\security-contest\libero\contest\synthesis\synwork\layer1.rt.csv
+

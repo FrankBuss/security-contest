@@ -1,0 +1,43 @@
+#set_io io_asyncReset -pinname M11 -fixed true -iostd LVCMOS33 -DIRECTION INPUT
+
+#set_io DEVRST_N -pinname M11 -fixed true -iostd LVCMOS33 -DIRECTION INPUT
+#set_io tck -pinname R14 -fixed true -DIRECTION INPUT
+#set_io tdi -pinname P16 -fixed true -DIRECTION INPUT
+#set_io tdo -pinname P14 -fixed true -DIRECTION OUTPUT
+#set_io tms -pinname N11 -fixed true -DIRECTION INPUT
+#set_io TRSTB -DIRECTION INPUT -pinname N13 -fixed true 
+set_io CLK0_PAD -pinname H16 -fixed true -iostd LVCMOS33 -DIRECTION INPUT
+set_io LED1_GREEN -pinname J16 -fixed true -iostd LVCMOS33 -DIRECTION OUTPUT
+set_io LED1_RED -pinname K16 -fixed true -iostd LVCMOS33 -DIRECTION OUTPUT
+set_io LED2_GREEN -pinname M16 -fixed true -iostd LVCMOS33 -DIRECTION OUTPUT
+set_io LED2_RED -pinname N16 -fixed true -iostd LVCMOS33 -DIRECTION OUTPUT
+#set_io USER_BUTTON1 -pinname H12 -fixed true -iostd LVCMOS33 -DIRECTION INPUT
+#set_io USER_BUTTON2 -pinname H13 -fixed true -iostd LVCMOS33 -DIRECTION INPUT 
+set_io io_uart_txd -pinname G3 -fixed true -iostd LVCMOS33 -DIRECTION OUTPUT
+set_io io_uart_rxd -pinname H3 -fixed true -iostd LVCMOS33 -DIRECTION INPUT
+
+#set_io ARD_IO0 -pinname P6 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO1 -pinname P7 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO10 -pinname N10 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO11 -pinname P10 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO12 -pinname P12 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO13 -pinname P13 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO2 -pinname N7 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO3 -pinname M7 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO4 -pinname P8 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO5 -pinname M8 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO6 -pinname N8 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO7 -pinname P9 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO8 -pinname M9 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_IO9 -pinname M10 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_RESET -pinname G1 -fixed true -iostd LVCMOS33 -DIRECTION OUTPUT
+#set_io ARD_SCL -pinname T6 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io ARD_SDA -pinname T9 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D0n -pinname L12 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D0 -pinname L11 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D1n -pinname L13 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D1 -pinname L14 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D2n -pinname M13 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D2 -pinname N14 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D3n -pinname N15 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT
+#set_io PMOD_D3 -pinname M15 -fixed true -iostd LVCMOS33 -DIRECTION INPUT_OUTPUT

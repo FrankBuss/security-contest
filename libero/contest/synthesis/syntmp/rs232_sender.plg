@@ -1,0 +1,11 @@
+@P:  Worst Slack : 5.251
+@P:  rs232_sender|clk_i - Estimated Frequency : 210.6 MHz
+@P:  rs232_sender|clk_i - Requested Frequency : 100.0 MHz
+@P:  rs232_sender|clk_i - Estimated Period : 4.749
+@P:  rs232_sender|clk_i - Requested Period : 10.000
+@P:  rs232_sender|clk_i - Slack : 5.251
+@P: rs232_sender Part : m2gl025vf256std
+@P: rs232_sender Register bits  : 22 
+@P: rs232_sender DSP Blocks  : 0
+@P: rs232_sender I/O primitives : 13
+@P:  CPU Time : 0h:00m:00s

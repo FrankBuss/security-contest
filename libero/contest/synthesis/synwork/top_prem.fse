@@ -1,0 +1,42 @@
+
+fsm_encoding {124894248943} onehot
+
+fsm_state_encoding {124894248943} 000 {00001}
+
+fsm_state_encoding {124894248943} 001 {00010}
+
+fsm_state_encoding {124894248943} 010 {00100}
+
+fsm_state_encoding {124894248943} 011 {01000}
+
+fsm_state_encoding {124894248943} 100 {10000}
+
+fsm_registers {124894248943} {_zz_188_[4]}  {_zz_188_[3]}  {_zz_188_[2]}  {_zz_188_[1]}  {_zz_188_[0]} 
+
+fsm_encoding {1225122512} onehot
+
+fsm_state_encoding {1225122512} 000 {00001}
+
+fsm_state_encoding {1225122512} 001 {00010}
+
+fsm_state_encoding {1225122512} 010 {00100}
+
+fsm_state_encoding {1225122512} 011 {01000}
+
+fsm_state_encoding {1225122512} 100 {10000}
+
+fsm_registers {1225122512} {stateMachine_state[4]}  {stateMachine_state[3]}  {stateMachine_state[2]}  {stateMachine_state[1]}  {stateMachine_state[0]} 
+
+fsm_encoding {1242224221} onehot
+
+fsm_state_encoding {1242224221} 000 {00001}
+
+fsm_state_encoding {1242224221} 001 {00010}
+
+fsm_state_encoding {1242224221} 010 {00100}
+
+fsm_state_encoding {1242224221} 011 {01000}
+
+fsm_state_encoding {1242224221} 100 {10000}
+
+fsm_registers {1242224221} {stateMachine_state[4]}  {stateMachine_state[3]}  {stateMachine_state[2]}  {stateMachine_state[1]}  {stateMachine_state[0]} 

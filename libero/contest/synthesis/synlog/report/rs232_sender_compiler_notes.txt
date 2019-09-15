@@ -1,0 +1,11 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":12:7:12:18|Top entity is set to rs232_sender.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":12:7:12:18|Synthesizing work.rs232_sender.rtl.
+@N: CD233 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":28:17:28:18|Using sequential encoding for type state_type.
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":45:2:45:3|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+@N: NF107 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":12:7:12:18|Selected library: work cell: rs232_sender view rtl as top level
+@N: NF107 :"W:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":12:7:12:18|Selected library: work cell: rs232_sender view rtl as top level
+

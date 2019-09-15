@@ -1,0 +1,1 @@
+@W: MT530 :"w:\projects\security-contest\libero\contest\hdl\rs232_sender.vhd":45:2:45:3|Found inferred clock rs232_sender|clk_i which controls 24 sequential elements including state[0:3]. This clock has no specified timing constraint which may adversely impact design performance. 

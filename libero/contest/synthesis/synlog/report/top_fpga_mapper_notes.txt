@@ -1,0 +1,57 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":168:8:168:52|Tristate driver UJTAG_BYPASS_TDO_3_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_3_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":161:8:161:52|Tristate driver UJTAG_BYPASS_TDO_2_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_2_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":154:8:154:52|Tristate driver UJTAG_BYPASS_TDO_1_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_1_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":147:8:147:52|Tristate driver UJTAG_BYPASS_TDO_0_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_0_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":7490:2:7490:7|Found counter in view:work.Murax(verilog) instance resetCtrl_systemClkResetCounter[5:0] 
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6019:2:6019:7|Removing sequential instance systemDebugger_1_.dispatcher_dataShifter[0] (in view: work.Murax(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6019:2:6019:7|Removing sequential instance systemDebugger_1_.dispatcher_dataShifter[1] (in view: work.Murax(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2485:2:2485:7|Property "block_ram" or "no_rw_check" found for RAM RegFilePlugin_regFile_1[31:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2485:2:2485:7|Property "block_ram" or "no_rw_check" found for RAM RegFilePlugin_regFile[31:0] with specified coding style. Inferring block RAM.
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Found counter in view:work.VexRiscv(verilog) instance memory_DivPlugin_div_counter_value[5:0] 
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":656:2:656:7|Removing sequential instance IBusSimplePlugin_rspJoin_rspBuffer_c._zz_4_[0] (in view: work.VexRiscv(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing sequential instance NoName (in view: work.VexRiscv(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4669:36:4669:64|Found 32 by 32 bit equality operator ('==') execute_BranchPlugin_eq (in view: work.VexRiscv(verilog))
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":872:2:872:7|Property "block_ram" or "no_rw_check" found for RAM uartCtrl_1__io_read_queueWithOccupancy.logic_ram[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":872:2:872:7|Property "block_ram" or "no_rw_check" found for RAM bridge_write_streamUnbuffered_queueWithOccupancy.logic_ram[7:0] with specified coding style. Inferring block RAM.
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":812:2:812:7|Found counter in view:work.UartCtrl(verilog) instance clockDivider_counter[19:0] 
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":251:2:251:7|Removing sequential instance stateMachine_state[0] (in view: work.UartCtrlTx(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1020:2:1020:7|Found counter in view:work.MuraxApb3Timer(verilog) instance timerB.counter[15:0] 
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1020:2:1020:7|Found counter in view:work.MuraxApb3Timer(verilog) instance timerA.counter[15:0] 
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1004:21:1004:40|Found 16 by 16 bit equality operator ('==') timerA.limitHit (in view: work.MuraxApb3Timer(verilog))
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1004:21:1004:40|Found 16 by 16 bit equality operator ('==') timerB.limitHit (in view: work.MuraxApb3Timer(verilog))
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":980:2:980:7|Found counter in view:work.Prescaler(verilog) instance counter[15:0] 
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":979:24:979:43|Found 16 by 16 bit equality operator ('==') io_overflow (in view: work.Prescaler(verilog))
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing sequential instance Murax_0.system_cpu.decode_to_execute_SRC1[16] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing sequential instance Murax_0.system_cpu.decode_to_execute_SRC2[16] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":297:2:297:7|Removing sequential instance Murax_0.system_uartCtrl.uartCtrl_1_.tx.stateMachine_parity (in view: work.top(verilog)) because it does not drive other instances.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4950:10:4950:164|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0 (in view: work.top(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3867:31:3867:165|Replicating instance Murax_0.system_cpu.dBus_cmd_valid (in view: work.top(verilog)) with 39 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Replicating instance Murax_0.system_cpu.memory_arbitration_isValid (in view: work.top(verilog)) with 44 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3775:76:3775:192|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_inst_sn_m13 (in view: work.top(verilog)) with 32 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3775:76:3775:192|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_inst_sn_m11 (in view: work.top(verilog)) with 30 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3586:46:3586:418|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[12] (in view: work.top(verilog)) with 36 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Replicating instance Murax_0.system_cpu.execute_to_memory_IS_DIV (in view: work.top(verilog)) with 33 loads 1 time to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2202:21:2202:69|Replicating instance Murax_0.system_cpu._zz_196_ (in view: work.top(verilog)) with 70 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Replicating instance Murax_0.system_cpu.execute_arbitration_isValid (in view: work.top(verilog)) with 21 loads 1 time to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4971:10:4971:118|Replicating instance Murax_0.system_cpu.execute_arbitration_removeIt_i (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3775:76:3775:192|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_inst_sn_m15 (in view: work.top(verilog)) with 41 loads 3 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Replicating instance Murax_0.system_cpu.execute_LightShifterPlugin_isActive (in view: work.top(verilog)) with 37 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":7408:4:7408:7|Replicating instance Murax_0._zz_19_[10] (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4962:6:4962:7|Replicating instance Murax_0.system_cpu._zz_94__4 (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FP130 |Promoting Net Murax_0.resetCtrl_systemReset on CLKINT  I_1059 
+@N: FP130 |Promoting Net JTAG_0.JTAG_0.iURSTB on CLKINT  I_1060 
+@N: FP130 |Promoting Net JTAG_0.JTAG_0.iUDRCK on CLKINT  I_1061 
+@N: FP130 |Promoting Net Murax_0.resetCtrl_mainClkReset on CLKINT  I_1062 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

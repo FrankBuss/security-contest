@@ -1,0 +1,36 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. top, 2147, 2881, 691, 0, 4, 32, 4, 5, 7
+.	. Blinker, 29, 20, 27, 0, 0, 0, 0, 0, 0
+.	. JTAG, 17, 120, 0, 0, 0, 0, 0, 2, 0
+.	.	. COREJTAGDEBUG_Z1_layer0, 17, 120, 0, 0, 0, 0, 0, 2, 0
+.	.	.	. COREJTAGDEBUG_UJTAG_WRAPPER, 0, 1, 0, 0, 0, 0, 0, 2, 0
+.	.	.	. COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0, 17, 118, 0, 0, 0, 0, 0, 0, 0
+.	. MainClockCCC, 0, 0, 0, 0, 0, 0, 0, 1, 1
+.	.	. MainClockCCC_MainClockCCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 1
+.	. Murax, 2101, 2741, 664, 0, 4, 32, 4, 2, 0
+.	.	. Apb3Decoder, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	. Apb3Gpio, 64, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	. Apb3Router, 2, 43, 0, 0, 0, 0, 0, 0, 0
+.	.	. Apb3UartCtrl, 79, 141, 26, 0, 0, 0, 2, 0, 0
+.	.	.	. StreamFifo, 10, 25, 0, 0, 0, 0, 1, 0, 0
+.	.	.	. StreamFifo_0, 10, 23, 0, 0, 0, 0, 1, 0, 0
+.	.	.	. UartCtrl, 57, 74, 26, 0, 0, 0, 0, 0, 0
+.	.	.	.	. UartCtrlRx, 27, 42, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. BufferCC, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. UartCtrlTx, 10, 26, 5, 0, 0, 0, 0, 0, 0
+.	.	. BufferCC_3_, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. JtagBridge, 122, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. FlowCCByToggle, 9, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. BufferCC_1_, 2, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. MuraxApb3Timer, 108, 121, 72, 0, 0, 0, 0, 0, 0
+.	.	.	. InterruptCtrl, 2, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Prescaler, 16, 2, 24, 0, 0, 0, 0, 0, 0
+.	.	.	. Timer, 17, 5, 24, 0, 0, 0, 0, 0, 0
+.	.	.	. Timer_0, 17, 5, 24, 0, 0, 0, 0, 0, 0
+.	.	. MuraxMasterArbiter, 2, 48, 0, 0, 0, 0, 0, 0, 0
+.	.	. MuraxPipelinedMemoryBusRam, 65, 69, 0, 0, 0, 32, 0, 0, 0
+.	.	. PipelinedMemoryBusToApbBridge, 34, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	. SystemDebugger, 78, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	. VexRiscv, 1462, 2142, 559, 0, 4, 0, 2, 0, 0
+.	.	.	. StreamFifoLowLatency, 33, 45, 0, 0, 0, 0, 0, 0, 0

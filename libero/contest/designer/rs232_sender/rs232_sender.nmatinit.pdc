@@ -1,0 +1,106 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.1 12.600.0.14
+
+# Design Name: rs232_sender 
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Sun Sep 15 12:39:59 2019 
+
+
+#
+# I/O constraints
+#
+
+set_io busy -DIRECTION OUTPUT -pinname H16 -fixed no
+set_io clk_i -DIRECTION INPUT -pinname F4 -fixed no
+set_io dat_i\[0\] -DIRECTION INPUT -pinname L12 -fixed no
+set_io dat_i\[1\] -DIRECTION INPUT -pinname M13 -fixed no
+set_io dat_i\[2\] -DIRECTION INPUT -pinname L13 -fixed no
+set_io dat_i\[3\] -DIRECTION INPUT -pinname N16 -fixed no
+set_io dat_i\[4\] -DIRECTION INPUT -pinname L11 -fixed no
+set_io dat_i\[5\] -DIRECTION INPUT -pinname K15 -fixed no
+set_io dat_i\[6\] -DIRECTION INPUT -pinname L14 -fixed no
+set_io dat_i\[7\] -DIRECTION INPUT -pinname N15 -fixed no
+set_io rst_i -DIRECTION INPUT -pinname N14 -fixed no
+set_io stb_i -DIRECTION INPUT -pinname K16 -fixed no
+set_io tx -DIRECTION OUTPUT -pinname T12 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location update.shift_register_7_5_146_a2 -fixed no 635 9
+set_location state_srsts\[1\] -fixed no 619 12
+set_location bit_counter_0_i_a3\[0\] -fixed no 614 12
+set_location baudrate_counter\[1\] -fixed no 621 16
+set_location baudrate_counter_RNO\[5\] -fixed no 621 12
+set_location un1_rst_i_5_0_0 -fixed no 632 9
+set_location shift_register\[5\] -fixed no 629 10
+set_location state_ns_0_o2\[0\] -fixed no 617 12
+set_location update.shift_register_7_6_133_i_m2_i_m2 -fixed no 627 9
+set_location update.shift_register_7_0_213_i_m2 -fixed no 630 9
+set_location update.tx_9_iv_0_a3_0 -fixed no 634 9
+set_location update.shift_register_7_3_171_i_m2 -fixed no 629 9
+set_location baudrate_counter_RNO\[2\] -fixed no 623 15
+set_location update.tx_9_iv_0_a2 -fixed no 626 9
+set_location tx_Z -fixed no 613 13
+set_location shift_register\[3\] -fixed no 628 10
+set_location bit_counter_0_0_o2_0\[1\] -fixed no 620 9
+set_location bit_counter_RNILP21\[1\] -fixed no 615 9
+set_location baudrate_counter\[5\] -fixed no 621 13
+set_location update.shift_register_7_4_157_i_m2 -fixed no 633 9
+set_location tx_RNO_0 -fixed no 616 12
+set_location shift_register\[6\] -fixed no 633 10
+set_location tx_RNO -fixed no 613 12
+set_location baudrate_counter_RNO\[0\] -fixed no 615 12
+set_location baudrate_counter\[0\] -fixed no 615 13
+set_location baudrate_counter_RNO\[4\] -fixed no 619 15
+set_location baudrate_counter_0_i_o2\[4\] -fixed no 618 12
+set_location bit_counter_0_0_o2\[1\] -fixed no 613 9
+set_location shift_register\[0\] -fixed no 627 10
+set_location bit_counter_RNO\[0\] -fixed no 614 9
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 624 8
+set_location update.shift_register_7_227_i_m2 -fixed no 625 9
+set_location baudrate_counter\[6\] -fixed no 620 13
+set_location state\[0\] -fixed no 612 10
+set_location busy_Z -fixed no 623 13
+set_location clk_i_ibuf_RNI7VLC -fixed no 296 72
+set_location baudrate_counter_RNO\[6\] -fixed no 620 12
+set_location update.tx_9_iv_0_o2 -fixed no 618 9
+set_location bit_counter\[1\] -fixed no 617 10
+set_location un1_rst_i_5_0_0_o2 -fixed no 623 9
+set_location shift_register\[1\] -fixed no 625 10
+set_location bit_counter\[0\] -fixed no 614 10
+set_location shift_register\[7\] -fixed no 635 10
+set_location clk_i_ibuf_RNI7VLC/U0_RGB1 -fixed no 446 15
+set_location baudrate_counter\[3\] -fixed no 622 16
+set_location state_ns_0_o2_4\[0\] -fixed no 620 15
+set_location shift_register\[4\] -fixed no 624 10
+set_location state\[1\] -fixed no 619 13
+set_location update.shift_register_7_2_185_i_m2 -fixed no 624 9
+set_location bit_counter_0_i_m2\[0\] -fixed no 619 9
+set_location state_ns_0_0_0\[0\] -fixed no 622 9
+set_location state_srsts\[0\] -fixed no 612 9
+set_location bit_counter_0_0\[1\] -fixed no 617 9
+set_location update.tx_9_iv_i -fixed no 631 9
+set_location baudrate_counter\[2\] -fixed no 623 16
+set_location ip_interface_inst -fixed no 203 0
+set_location busy_RNO -fixed no 622 12
+set_location baudrate_counter\[4\] -fixed no 619 16
+set_location baudrate_counter_RNO\[3\] -fixed no 622 15
+set_location state_ns_i_x2_0_o2\[1\] -fixed no 623 12
+set_location baudrate_counter_0_i_a3_0\[6\] -fixed no 612 12
+set_location state_ns_0_0_a3_0_1\[0\] -fixed no 616 9
+set_location bit_counter_RNO\[2\] -fixed no 621 9
+set_location bit_counter\[2\] -fixed no 621 10
+set_location baudrate_counter_RNO\[1\] -fixed no 621 15
+set_location update.shift_register_7_1_199_i_m2 -fixed no 628 9
+set_location shift_register\[2\] -fixed no 630 10
+set_location un1_baudrate_counter_cry_0 -fixed no 612 15
+set_location clk_i_ibuf_RNI7VLC/U0_RGB1_RGB0 -fixed no 446 12
+set_location clk_i_ibuf_RNI7VLC/U0_RGB1_RGB1 -fixed no 446 9
+set_location un1_baudrate_counter_cry_0_CC_0 -fixed no 612 17

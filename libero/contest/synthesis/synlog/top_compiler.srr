@@ -1,0 +1,482 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@N:"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Top entity is set to Blinker.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+
+Process completed successfully.
+# Sun Sep 15 18:54:18 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\work\JTAG\JTAG.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\hdl\Murax.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+
+Process completed successfully.
+# Sun Sep 15 18:54:18 2019
+
+###########################################################]
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v" (library COREJTAGDEBUG_LIB)
+@I::"W:\projects\security-contest\libero\contest\component\work\JTAG\JTAG.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\hdl\Murax.v" (library work)
+@I::"W:\projects\security-contest\libero\contest\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+File W:\projects\security-contest\libero\contest\hdl\Murax.v changed - recompiling
+File W:\projects\security-contest\libero\contest\component\work\top\top.v changed - recompiling
+@N: CG775 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":22:7:22:19|Component COREJTAGDEBUG not found in library "work" or "__hyper__lib__", but found in library COREJTAGDEBUG_LIB
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":22:7:22:19|Synthesizing module COREJTAGDEBUG in library COREJTAGDEBUG_LIB.
+
+	FAMILY=32'b00000000000000000000000000011000
+	NUM_DEBUG_TGTS=32'b00000000000000000000000000000001
+	TGT_ACTIVE_HIGH_RESET_0=32'b00000000000000000000000000000001
+	IR_CODE_TGT_0=8'b01010101
+	TGT_ACTIVE_HIGH_RESET_1=32'b00000000000000000000000000000001
+	IR_CODE_TGT_1=8'b01010110
+	TGT_ACTIVE_HIGH_RESET_2=32'b00000000000000000000000000000001
+	IR_CODE_TGT_2=8'b01010111
+	TGT_ACTIVE_HIGH_RESET_3=32'b00000000000000000000000000000001
+	IR_CODE_TGT_3=8'b01011000
+	TGT_ACTIVE_HIGH_RESET_4=32'b00000000000000000000000000000001
+	IR_CODE_TGT_4=8'b01011001
+	TGT_ACTIVE_HIGH_RESET_5=32'b00000000000000000000000000000001
+	IR_CODE_TGT_5=8'b01011010
+	TGT_ACTIVE_HIGH_RESET_6=32'b00000000000000000000000000000001
+	IR_CODE_TGT_6=8'b01011011
+	TGT_ACTIVE_HIGH_RESET_7=32'b00000000000000000000000000000001
+	IR_CODE_TGT_7=8'b01011100
+	TGT_ACTIVE_HIGH_RESET_8=32'b00000000000000000000000000000001
+	IR_CODE_TGT_8=8'b01011101
+	TGT_ACTIVE_HIGH_RESET_9=32'b00000000000000000000000000000001
+	IR_CODE_TGT_9=8'b01011110
+	TGT_ACTIVE_HIGH_RESET_10=32'b00000000000000000000000000000001
+	IR_CODE_TGT_10=8'b01011111
+	TGT_ACTIVE_HIGH_RESET_11=32'b00000000000000000000000000000001
+	IR_CODE_TGT_11=8'b01100000
+	TGT_ACTIVE_HIGH_RESET_12=32'b00000000000000000000000000000001
+	IR_CODE_TGT_12=8'b01100001
+	TGT_ACTIVE_HIGH_RESET_13=32'b00000000000000000000000000000001
+	IR_CODE_TGT_13=8'b01100010
+	TGT_ACTIVE_HIGH_RESET_14=32'b00000000000000000000000000000001
+	IR_CODE_TGT_14=8'b01100011
+	TGT_ACTIVE_HIGH_RESET_15=32'b00000000000000000000000000000001
+	IR_CODE_TGT_15=8'b01100100
+	UJTAG_BYPASS=32'b00000000000000000000000000000000
+	DELAY_NUM=32'b00000000000000000000000000100010
+	IR_CODE_TGT=128'b01100100011000110110001001100001011000000101111101011110010111010101110001011011010110100101100101011000010101110101011001010101
+	TGT_ACTIVE_HIGH_RESET=16'b1111111111111111
+	USE_NEW_UJTAG=32'b00000000000000000000000000000001
+	USE_UJTAG_WRAPPER=32'b00000000000000000000000000000001
+   Generated name = COREJTAGDEBUG_Z1_layer0
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":687:7:687:11|Synthesizing module UJTAG in library work.
+Running optimization stage 1 on UJTAG .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v":39:7:39:33|Synthesizing module COREJTAGDEBUG_UJTAG_WRAPPER in library COREJTAGDEBUG_LIB.
+Running optimization stage 1 on COREJTAGDEBUG_UJTAG_WRAPPER .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v":20:7:20:24|Synthesizing module corejtagdebug_bufd in library COREJTAGDEBUG_LIB.
+
+	DELAY_NUM=32'b00000000000000000000000000100010
+   Generated name = corejtagdebug_bufd_34s
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":234:7:234:10|Synthesizing module BUFD in library work.
+Running optimization stage 1 on BUFD .......
+Running optimization stage 1 on corejtagdebug_bufd_34s .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v":47:7:47:27|Synthesizing module COREJTAGDEBUG_UJ_JTAG in library COREJTAGDEBUG_LIB.
+
+	FAMILY=32'b00000000000000000000000000011000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	DELAY_NUM=32'b00000000000000000000000000100010
+	IR_CODE_TGT=8'b01010101
+	NUM_LEAD_PAD_BITS=8'b00000000
+	NUM_TRAIL_PAD_BITS=8'b00000000
+   Generated name = COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0
+Running optimization stage 1 on COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+@W: CG360 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":147:8:147:52|Removing wire UJTAG_BYPASS_TDO_0, as there is no assignment to it.
+@W: CG360 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":154:8:154:52|Removing wire UJTAG_BYPASS_TDO_1, as there is no assignment to it.
+@W: CG360 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":161:8:161:52|Removing wire UJTAG_BYPASS_TDO_2, as there is no assignment to it.
+@W: CG360 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":168:8:168:52|Removing wire UJTAG_BYPASS_TDO_3, as there is no assignment to it.
+Running optimization stage 1 on COREJTAGDEBUG_Z1_layer0 .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\JTAG\JTAG.v":9:7:9:10|Synthesizing module JTAG in library work.
+Running optimization stage 1 on JTAG .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC in library work.
+Running optimization stage 1 on CCC .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":268:7:268:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v":5:7:5:38|Synthesizing module MainClockCCC_MainClockCCC_0_FCCC in library work.
+Running optimization stage 1 on MainClockCCC_MainClockCCC_0_FCCC .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC.v":9:7:9:18|Synthesizing module MainClockCCC in library work.
+Running optimization stage 1 on MainClockCCC .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1053:7:1053:17|Synthesizing module BufferCC_3_ in library work.
+Running optimization stage 1 on BufferCC_3_ .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1067:7:1067:24|Synthesizing module MuraxMasterArbiter in library work.
+Running optimization stage 1 on MuraxMasterArbiter .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":536:7:536:26|Synthesizing module StreamFifoLowLatency in library work.
+Running optimization stage 1 on StreamFifoLowLatency .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1160:7:1160:14|Synthesizing module VexRiscv in library work.
+@N: CG793 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5231:6:5231:13|Ignoring system task $display
+@W: CG360 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1788:8:1788:52|Removing wire IBusSimplePlugin_iBusRsp_stages_1_inputSample, as there is no assignment to it.
+@W: CG360 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1796:8:1796:52|Removing wire IBusSimplePlugin_iBusRsp_stages_2_inputSample, as there is no assignment to it.
+@W: CG360 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1816:8:1816:71|Removing wire IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_error, as there is no assignment to it.
+@W: CG360 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1885:8:1885:46|Removing wire IBusSimplePlugin_rspJoin_fetchRsp_isRvc, as there is no assignment to it.
+Running optimization stage 1 on VexRiscv .......
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5579:2:5579:7|Pruning unused register DebugPlugin_firstCycle. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5579:2:5579:7|Pruning unused register DebugPlugin_secondCycle. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register _zz_126_[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register _zz_127_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register IBusSimplePlugin_injector_formal_rawInDecode[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register memory_to_writeBack_MEMORY_STORE. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register decode_to_execute_FORMAL_PC_NEXT[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register execute_to_memory_FORMAL_PC_NEXT[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register memory_to_writeBack_FORMAL_PC_NEXT[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register decode_to_execute_BYPASSABLE_EXECUTE_STAGE. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register decode_to_execute_BYPASSABLE_MEMORY_STAGE. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused register execute_to_memory_BYPASSABLE_MEMORY_STAGE. Make sure that there are no unused intermediate registers.
+@W: CL169 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":4894:2:4894:7|Pruning unused register CsrPlugin_lastStageWasWfi. Make sure that there are no unused intermediate registers.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused bits 31 to 2 of _zz_97_[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Removing unused bit 0 of _zz_97_[31:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Removing unused bit 32 of memory_DivPlugin_rs1_9[32:0]. Either assign all bits or reduce the width of the signal.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused bits 64 to 32 of memory_DivPlugin_accumulator_8[64:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused bits 31 to 30 of execute_to_memory_INSTRUCTION[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused bits 27 to 15 of execute_to_memory_INSTRUCTION[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning unused bits 6 to 0 of execute_to_memory_INSTRUCTION[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":4894:2:4894:7|Pruning unused bits 31 to 30 of memory_to_writeBack_INSTRUCTION[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":4894:2:4894:7|Pruning unused bits 27 to 15 of memory_to_writeBack_INSTRUCTION[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":4894:2:4894:7|Pruning unused bits 6 to 0 of memory_to_writeBack_INSTRUCTION[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":2485:2:2485:7|Found RAM RegFilePlugin_regFile, depth=32, width=32
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":2485:2:2485:7|Found RAM RegFilePlugin_regFile, depth=32, width=32
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_code[0] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_code[1] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_targetPrivilege[0] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_interrupt_targetPrivilege[1] is always 1.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit execute_to_memory_BRANCH_CALC[0] is always 0.
+@N: CL189 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Register bit CsrPlugin_exceptionPortCtrl_exceptionContext_code[2] is always 0.
+@W: CL260 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning register bit 2 of CsrPlugin_exceptionPortCtrl_exceptionContext_code[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning register bit 0 of execute_to_memory_BRANCH_CALC[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5214:2:5214:7|Pruning register bits 1 to 0 of CsrPlugin_interrupt_code[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":108:7:108:17|Synthesizing module BufferCC_1_ in library work.
+Running optimization stage 1 on BufferCC_1_ .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":664:7:664:20|Synthesizing module FlowCCByToggle in library work.
+@W: CG360 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":675:8:675:19|Removing wire outHitSignal, as there is no assignment to it.
+Running optimization stage 1 on FlowCCByToggle .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5656:7:5656:16|Synthesizing module JtagBridge in library work.
+Running optimization stage 1 on JtagBridge .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5952:7:5952:20|Synthesizing module SystemDebugger in library work.
+Running optimization stage 1 on SystemDebugger .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6031:7:6031:32|Synthesizing module MuraxPipelinedMemoryBusRam in library work.
+Running optimization stage 1 on MuraxPipelinedMemoryBusRam .......
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol3, depth=12288, width=8
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol2, depth=12288, width=8
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol1, depth=12288, width=8
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6059:2:6059:7|Found RAM ram_symbol0, depth=12288, width=8
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6095:7:6095:35|Synthesizing module PipelinedMemoryBusToApbBridge in library work.
+Running optimization stage 1 on PipelinedMemoryBusToApbBridge .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":726:7:726:17|Synthesizing module BufferCC_2_ in library work.
+Running optimization stage 1 on BufferCC_2_ .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6183:7:6183:14|Synthesizing module Apb3Gpio in library work.
+Running optimization stage 1 on Apb3Gpio .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":123:7:123:16|Synthesizing module UartCtrlTx in library work.
+Running optimization stage 1 on UartCtrlTx .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":87:7:87:14|Synthesizing module BufferCC in library work.
+Running optimization stage 1 on BufferCC .......
+@A: CL291 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":96:2:96:7|Register buffers_0 with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@A: CL291 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":96:2:96:7|Register buffers_1 with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":332:7:332:16|Synthesizing module UartCtrlRx in library work.
+Running optimization stage 1 on UartCtrlRx .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":741:7:741:14|Synthesizing module UartCtrl in library work.
+Running optimization stage 1 on UartCtrl .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":825:7:825:16|Synthesizing module StreamFifo in library work.
+Running optimization stage 1 on StreamFifo .......
+@N: CL134 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":872:2:872:7|Found RAM logic_ram, depth=16, width=8
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6275:7:6275:18|Synthesizing module Apb3UartCtrl in library work.
+Running optimization stage 1 on Apb3UartCtrl .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":972:7:972:15|Synthesizing module Prescaler in library work.
+Running optimization stage 1 on Prescaler .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":989:7:989:11|Synthesizing module Timer in library work.
+Running optimization stage 1 on Timer .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1034:7:1034:19|Synthesizing module InterruptCtrl in library work.
+Running optimization stage 1 on InterruptCtrl .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6493:7:6493:20|Synthesizing module MuraxApb3Timer in library work.
+Running optimization stage 1 on MuraxApb3Timer .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6896:7:6896:17|Synthesizing module Apb3Decoder in library work.
+Running optimization stage 1 on Apb3Decoder .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6942:7:6942:16|Synthesizing module Apb3Router in library work.
+Running optimization stage 1 on Apb3Router .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":7029:7:7029:11|Synthesizing module Murax in library work.
+Running optimization stage 1 on Murax .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET in library work.
+Running optimization stage 1 on SYSRESET .......
+@N: CG364 :"W:\projects\security-contest\libero\contest\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+@N: CG794 :"W:\projects\security-contest\libero\contest\component\work\top\top.v":99:8:99:16|Using module Blinker from library work
+Running optimization stage 1 on top .......
+Running optimization stage 2 on top .......
+Running optimization stage 2 on SYSRESET .......
+Running optimization stage 2 on Murax .......
+Running optimization stage 2 on Apb3Router .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6976:14:6976:34|Input resetCtrl_systemReset is unused.
+Running optimization stage 2 on Apb3Decoder .......
+Running optimization stage 2 on MuraxApb3Timer .......
+@W: CL246 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6499:20:6499:32|Input port bits 31 to 17 of io_apb_PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on InterruptCtrl .......
+Running optimization stage 2 on Timer .......
+Running optimization stage 2 on Prescaler .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":977:14:977:34|Input resetCtrl_systemReset is unused.
+Running optimization stage 2 on Apb3UartCtrl .......
+@W: CL246 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6281:20:6281:32|Input port bits 31 to 8 of io_apb_PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on StreamFifo .......
+Running optimization stage 2 on UartCtrl .......
+Running optimization stage 2 on UartCtrlRx .......
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":422:2:422:7|Trying to extract state machine for register stateMachine_state.
+Extracted state machine for register stateMachine_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+Running optimization stage 2 on BufferCC .......
+Running optimization stage 2 on UartCtrlTx .......
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":251:2:251:7|Trying to extract state machine for register stateMachine_state.
+Extracted state machine for register stateMachine_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+Running optimization stage 2 on Apb3Gpio .......
+Running optimization stage 2 on BufferCC_2_ .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":730:14:730:34|Input resetCtrl_systemReset is unused.
+Running optimization stage 2 on PipelinedMemoryBusToApbBridge .......
+@W: CL246 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6099:20:6099:60|Input port bits 31 to 20 of io_pipelinedMemoryBus_cmd_payload_address[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6101:19:6101:56|Input io_pipelinedMemoryBus_cmd_payload_mask is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6111:14:6111:29|Input io_apb_PSLVERROR is unused.
+Running optimization stage 2 on MuraxPipelinedMemoryBusRam .......
+@W: CL246 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6035:20:6035:45|Input port bits 31 to 16 of io_bus_cmd_payload_address[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":6035:20:6035:45|Input port bits 1 to 0 of io_bus_cmd_payload_address[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on SystemDebugger .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5958:14:5958:32|Input io_remote_rsp_ready is unused.
+Running optimization stage 2 on JtagBridge .......
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5909:2:5909:7|Trying to extract state machine for register jtag_tap_fsm_state.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":5662:14:5662:32|Input io_remote_cmd_ready is unused.
+Running optimization stage 2 on FlowCCByToggle .......
+Running optimization stage 2 on BufferCC_1_ .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":112:14:112:35|Input resetCtrl_mainClkReset is unused.
+Running optimization stage 2 on VexRiscv .......
+@N: CL201 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":4894:2:4894:7|Trying to extract state machine for register _zz_188_.
+Extracted state machine for register _zz_188_
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL246 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1173:19:1173:47|Input port bits 1 to 0 of debug_bus_cmd_payload_address[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\Murax.v":1184:14:1184:27|Input dBus_rsp_error is unused.
+Running optimization stage 2 on StreamFifoLowLatency .......
+Running optimization stage 2 on MuraxMasterArbiter .......
+Running optimization stage 2 on BufferCC_3_ .......
+Running optimization stage 2 on MainClockCCC .......
+Running optimization stage 2 on MainClockCCC_MainClockCCC_0_FCCC .......
+Running optimization stage 2 on INBUF .......
+Running optimization stage 2 on CCC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on JTAG .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on COREJTAGDEBUG_UJ_JTAG_24s_0s_34s_85_0_0 .......
+Running optimization stage 2 on BUFD .......
+Running optimization stage 2 on corejtagdebug_bufd_34s .......
+Running optimization stage 2 on COREJTAGDEBUG_UJTAG_WRAPPER .......
+Running optimization stage 2 on UJTAG .......
+Running optimization stage 2 on COREJTAGDEBUG_Z1_layer0 .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":42:8:42:16|Input TGT_TDO_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":49:8:49:16|Input TGT_TDO_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":56:8:56:16|Input TGT_TDO_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":63:8:63:16|Input TGT_TDO_4 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":70:8:70:16|Input TGT_TDO_5 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":77:8:77:16|Input TGT_TDO_6 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":84:8:84:16|Input TGT_TDO_7 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":91:8:91:16|Input TGT_TDO_8 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":98:8:98:16|Input TGT_TDO_9 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":105:8:105:17|Input TGT_TDO_10 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":112:8:112:17|Input TGT_TDO_11 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":119:8:119:17|Input TGT_TDO_12 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":126:8:126:17|Input TGT_TDO_13 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":133:8:133:17|Input TGT_TDO_14 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":140:8:140:17|Input TGT_TDO_15 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":142:8:142:52|Input UJTAG_BYPASS_TCK_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":143:8:143:52|Input UJTAG_BYPASS_TMS_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":144:8:144:52|Input UJTAG_BYPASS_TDI_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":145:8:145:54|Input UJTAG_BYPASS_TRSTB_0 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":149:8:149:52|Input UJTAG_BYPASS_TCK_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":150:8:150:52|Input UJTAG_BYPASS_TMS_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":151:8:151:52|Input UJTAG_BYPASS_TDI_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":152:8:152:54|Input UJTAG_BYPASS_TRSTB_1 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":156:8:156:52|Input UJTAG_BYPASS_TCK_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":157:8:157:52|Input UJTAG_BYPASS_TMS_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":158:8:158:52|Input UJTAG_BYPASS_TDI_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":159:8:159:54|Input UJTAG_BYPASS_TRSTB_2 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":163:8:163:52|Input UJTAG_BYPASS_TCK_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":164:8:164:52|Input UJTAG_BYPASS_TMS_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":165:8:165:52|Input UJTAG_BYPASS_TDI_3 is unused.
+@N: CL159 :"W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v":166:8:166:54|Input UJTAG_BYPASS_TRSTB_3 is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: W:\projects\security-contest\libero\contest\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 135MB peak: 166MB)
+
+
+Process completed successfully.
+# Sun Sep 15 18:54:22 2019
+
+###########################################################]
+@N:"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Top entity is set to Blinker.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"W:\projects\security-contest\libero\contest\hdl\Blinker.vhd":5:7:5:13|Synthesizing work.blinker.behavioral.
+Post processing for work.blinker.behavioral
+Running optimization stage 1 on Blinker .......
+Running optimization stage 2 on Blinker .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: W:\projects\security-contest\libero\contest\synthesis\synwork\layer1.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+
+Process completed successfully.
+# Sun Sep 15 18:54:22 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+File W:\projects\security-contest\libero\contest\synthesis\synwork\layer0.srs changed - recompiling
+File W:\projects\security-contest\libero\contest\synthesis\synwork\layer1.srs changed - recompiling
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: W:\projects\security-contest\libero\contest\synthesis\synwork\top_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Sep 15 18:54:23 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Sun Sep 15 18:54:23 2019
+
+###########################################################]

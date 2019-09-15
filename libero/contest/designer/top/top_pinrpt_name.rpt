@@ -1,0 +1,26 @@
+----------------------------------------------------------------
+-Pin Report - Date: Sun Sep 15 17:56:32 2019 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v12.1
+-Version: 12.600.0.14
+-Design Name: top
+-Family: IGLOO2
+-Die: M2GL025
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port        |Pin |Fixed |Function                 |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+------------|----|------|-------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+CLK0_PAD     H16  Yes    MSIO11NB2/CCC_NE1_CLKI0   Bank2     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+DEVRST_N_0   M11  Fixed  DEVRST_N                  ---       
+io_uart_rxd  H3   Yes    MSIO99PB7/CCC_NW0_CLKI0   Bank7     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+io_uart_txd  G3   Yes    MSIO98PB7/CCC_NW1_CLKI0   Bank7     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED1_GREEN   J16  Yes    MSIO11PB2//CCC_NE0_CLKI0  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED1_RED     K16  Yes    MSIO4PB2                  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED2_GREEN   M16  Yes    MSIO1NB2                  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED2_RED     N16  Yes    MSIO1PB2                  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+TCK          R14  Fixed  JTAG_TCK                  ---       
+TDI          P16  Fixed  JTAG_TDI                  ---       
+TDO          P14  Fixed  JTAG_TDO                  ---       
+TMS          N11  Fixed  JTAG_TMS                  ---       
+TRSTB        N13  Fixed  JTAG_TRSTB                ---       

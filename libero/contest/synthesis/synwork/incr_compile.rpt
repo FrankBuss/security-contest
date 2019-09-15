@@ -1,0 +1,148 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+Modified Files: 2
+FID:  path (prevtimestamp, timestamp)
+17       W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11)
+19       W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 34
+MID:  lib.cell.view
+30       COREJTAGDEBUG_LIB.COREJTAGDEBUG.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+31       COREJTAGDEBUG_LIB.COREJTAGDEBUG_UJTAG_WRAPPER.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+32       COREJTAGDEBUG_LIB.COREJTAGDEBUG_UJ_JTAG.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+33       COREJTAGDEBUG_LIB.corejtagdebug_bufd.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+0        work.Apb3Decoder.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+1        work.Apb3Gpio.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+2        work.Apb3Router.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+3        work.Apb3UartCtrl.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+4        work.BufferCC.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+5        work.BufferCC_1_.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+6        work.BufferCC_2_.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+7        work.BufferCC_3_.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+8        work.FlowCCByToggle.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+9        work.InterruptCtrl.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+34       work.JTAG.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+10       work.JtagBridge.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+11       work.MainClockCCC.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+12       work.MainClockCCC_MainClockCCC_0_FCCC.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+13       work.Murax.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+14       work.MuraxApb3Timer.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+15       work.MuraxMasterArbiter.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+16       work.MuraxPipelinedMemoryBusRam.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+17       work.PipelinedMemoryBusToApbBridge.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+18       work.Prescaler.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+19       work.StreamFifo.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+20       work.StreamFifoLowLatency.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+21       work.SystemDebugger.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+22       work.Timer.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+23       work.UartCtrl.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+24       work.UartCtrlRx.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+25       work.UartCtrlTx.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+26       work.VexRiscv.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+                        W:\projects\security-contest\libero\contest\hdl\Murax.v (2019-09-15 16:59:51, 2019-09-15 18:52:21) <-- (module definition)
+27       work.blinker.behavioral may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (may instantiate this module)
+29       work.top.verilog may have changed because the following files changed:
+                        W:\projects\security-contest\libero\contest\component\work\top\top.v (2019-09-15 17:54:43, 2019-09-15 18:54:11) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 23
+FID:  path (timestamp)
+0        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\igloo2.v (2018-12-21 07:52:12)
+1        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\arith.vhd (2018-12-21 07:52:16)
+2        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\location.map (2018-12-21 07:52:16)
+3        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\numeric.vhd (2018-12-21 07:52:16)
+4        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std.vhd (2018-12-21 07:52:16)
+5        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd (2018-12-21 07:52:16)
+6        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std_textio.vhd (2018-12-21 07:52:16)
+7        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\unsigned.vhd (2018-12-21 07:52:16)
+8        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\hyperents.vhd (2018-12-21 07:52:16)
+9        C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2018-12-21 07:52:16)
+10       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd\umr_capim.vhd (2018-12-21 07:52:16)
+11       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\hypermods.v (2018-12-21 07:52:16)
+12       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_objects.v (2018-12-21 07:52:16)
+13       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2018-12-21 07:52:16)
+14       C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\umr_capim.v (2018-12-21 07:52:16)
+20       W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v (2019-09-15 17:27:42)
+21       W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v (2019-09-15 17:27:42)
+22       W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v (2019-09-15 17:27:42)
+23       W:\projects\security-contest\libero\contest\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v (2019-09-15 17:27:42)
+24       W:\projects\security-contest\libero\contest\component\work\JTAG\JTAG.v (2019-09-15 17:30:05)
+15       W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC.v (2019-09-15 13:21:15)
+16       W:\projects\security-contest\libero\contest\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v (2019-09-15 13:21:15)
+18       W:\projects\security-contest\libero\contest\hdl\Blinker.vhd (2019-09-15 12:41:08)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

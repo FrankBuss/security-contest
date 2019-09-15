@@ -1,0 +1,560 @@
+#Build: Synplify Pro (R) N-2018.03M-SP1-1, Build 209R, Oct 23 2018
+#install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-433C5TG
+
+# Sun Sep 15 11:33:21 2019
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@N:"W:\projects\security-contest\libero\contest\hdl\top.vhd":5:7:5:9|Top entity is set to top.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"W:\projects\security-contest\libero\contest\hdl\top.vhd":5:7:5:9|Synthesizing work.top.behavioral.
+Post processing for work.top.behavioral
+Running optimization stage 1 on top .......
+Running optimization stage 2 on top .......
+@N: CL159 :"W:\projects\security-contest\libero\contest\hdl\top.vhd":9:2:9:9|Input DEVRST_N is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: W:\projects\security-contest\libero\contest\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Sep 15 11:33:23 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Sep 15 11:33:24 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Sep 15 11:33:24 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Database state : W:\projects\security-contest\libero\contest\synthesis\synwork\|synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Sep 15 11:33:26 2019
+
+###########################################################]
+Premap Report
+
+# Sun Sep 15 11:33:26 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: W:\projects\security-contest\libero\contest\designer\top\synthesis.fdc
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: W:\projects\security-contest\libero\contest\synthesis\top_scck.rpt 
+Printing clock  summary report in "W:\projects\security-contest\libero\contest\synthesis\top_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+syn_allowed_resources : blockrams=31  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+******************
+
+          Start           Requested     Requested     Clock        Clock                   Clock
+Level     Clock           Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------
+0 -       top|CLK_50M     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     29   
+================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                Clock     Source            Clock Pin       Non-clock Pin     Non-clock Pin
+Clock           Load      Pin               Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------
+top|CLK_50M     29        CLK_50M(port)     blink.C         -                 -            
+===========================================================================================
+
+@W: MT530 :"w:\projects\security-contest\libero\contest\hdl\top.vhd":28:2:28:3|Found inferred clock top|CLK_50M which controls 29 sequential elements including blinker[26:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file W:\projects\security-contest\libero\contest\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 15 11:33:28 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Sep 15 11:33:28 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     6.23ns		  37 /        29
+@N: FP130 |Promoting Net CLK_50M_c on CLKINT  I_56 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 29 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_50M             port                   29         blinker[10]    
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 134MB)
+
+Writing Analyst data base W:\projects\security-contest\libero\contest\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock top|CLK_50M with period 10.00ns. Please declare a user-defined clock on port CLK_50M.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Sep 15 11:33:30 2019
+#
+
+
+Top view:               top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    W:\projects\security-contest\libero\contest\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.127
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+top|CLK_50M        100.0 MHz     258.2 MHz     10.000        3.873         6.127     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------
+top|CLK_50M  top|CLK_50M  |  10.000      6.127  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|CLK_50M
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                         Arrival          
+Instance        Reference       Type     Pin     Net             Time        Slack
+                Clock                                                             
+----------------------------------------------------------------------------------
+blinker[1]      top|CLK_50M     SLE      Q       blinker[1]      0.108       6.127
+blinker[8]      top|CLK_50M     SLE      Q       blinker[8]      0.108       6.195
+blinker[2]      top|CLK_50M     SLE      Q       blinker[2]      0.108       6.221
+blinker[9]      top|CLK_50M     SLE      Q       blinker[9]      0.108       6.289
+blinker[16]     top|CLK_50M     SLE      Q       blinker[16]     0.108       6.295
+blinker[19]     top|CLK_50M     SLE      Q       blinker[19]     0.087       6.300
+blinker[18]     top|CLK_50M     SLE      Q       blinker[18]     0.108       6.344
+blinker[10]     top|CLK_50M     SLE      Q       blinker[10]     0.108       6.364
+blinker[20]     top|CLK_50M     SLE      Q       blinker[20]     0.087       6.369
+blinker[23]     top|CLK_50M     SLE      Q       blinker[23]     0.087       6.388
+==================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                 Required          
+Instance        Reference       Type     Pin     Net                     Time         Slack
+                Clock                                                                      
+-------------------------------------------------------------------------------------------
+blinker[0]      top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[7]      top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[12]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[13]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[14]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[15]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[17]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[19]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[20]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+blinker[21]     top|CLK_50M     SLE      SLn     main\.un9_blinker_i     9.662        6.127
+===========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      3.536
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.127
+
+    Number of logic level(s):                4
+    Starting point:                          blinker[1] / Q
+    Ending point:                            blinker[0] / SLn
+    The start point is clocked by            top|CLK_50M [rising] on pin CLK
+    The end   point is clocked by            top|CLK_50M [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                          Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+blinker[1]                    SLE      Q        Out     0.108     0.108       -         
+blinker[1]                    Net      -        -       0.497     -           2         
+main\.un9_blinker_17          CFG4     D        In      -         0.605       -         
+main\.un9_blinker_17          CFG4     Y        Out     0.317     0.922       -         
+main\.un9_blinker_17          Net      -        -       0.248     -           1         
+main\.un9_blinker_24          CFG4     D        In      -         1.171       -         
+main\.un9_blinker_24          CFG4     Y        Out     0.271     1.442       -         
+main\.un9_blinker_24          Net      -        -       0.248     -           1         
+main\.un9_blinker             CFG4     B        In      -         1.691       -         
+main\.un9_blinker             CFG4     Y        Out     0.165     1.855       -         
+main\.un9_blinker             Net      -        -       0.497     -           2         
+main\.un9_blinker_RNILNU4     CFG1     A        In      -         2.352       -         
+main\.un9_blinker_RNILNU4     CFG1     Y        Out     0.100     2.453       -         
+main\.un9_blinker_i           Net      -        -       1.083     -           13        
+blinker[0]                    SLE      SLn      In      -         3.536       -         
+========================================================================================
+Total path delay (propagation time + setup) of 3.873 is 1.299(33.5%) logic and 2.574(66.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CLKINT          1 use
+CFG1           2 uses
+CFG2           1 use
+CFG3           1 use
+CFG4           8 uses
+
+Carry cells:
+ARI1            27 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            29 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 3
+I/O primitives: 2
+INBUF          1 use
+OUTBUF         1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    39
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  29 + 0 + 0 + 0 = 29;
+Total number of LUTs after P&R:  39 + 0 + 0 + 0 = 39;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Sep 15 11:33:30 2019
+
+###########################################################]

@@ -1,0 +1,681 @@
+KEY LIBERO "12.600"
+KEY CAPTURE "12.600.0.14"
+KEY DEFAULT_IMPORT_LOC "E:\Naveen\Projects\G4_i\G4i_AnalogPairs\trunk\HW\VL_33V_18V\proj01\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "IGLOO2"
+KEY VendorTechnology_Die "PA4MGL2500_N"
+KEY VendorTechnology_Package "vf256"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "0"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4MGL2500_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "W:\projects\security-contest\libero\contest"
+KEY ProjectDescription "SPI4.2"
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREJTAGDEBUG_LIB
+ENDLIST
+LIST LIBRARY_COREJTAGDEBUG_LIB
+ALIAS=COREJTAGDEBUG_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568561405"
+SIZE="1916"
+PARENT="<project>\component\work\COREJTAGDEBUG_C0\COREJTAGDEBUG_C0.cxf"
+PARENT="<project>\component\work\JTAG\JTAG.cxf"
+PARENT="<project>\component\work\JTAG_0\JTAG_0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v,hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="22585"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v,hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="1033"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v,hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="5789"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v,hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="18296"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\mti\corejtagdebug_wave.do,do"
+STATE="utd"
+TIME="1568561262"
+SIZE="1934"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v,tb_hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="9726"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v,tb_hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="11170"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_testbench.v,tb_hdl"
+STATE="utd"
+TIME="1568561262"
+SIZE="12137"
+LIBRARY="COREJTAGDEBUG_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\COREJTAGDEBUG.cxf"
+MODULE_UNDER_TEST="COREJTAGDEBUG_TESTBENCH"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568546475"
+SIZE="241"
+PARENT="<project>\component\work\MainClockCCC\MainClockCCC.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREJTAGDEBUG_C0\COREJTAGDEBUG_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568561263"
+SIZE="6836"
+ENDFILE
+VALUE "<project>\component\work\COREJTAGDEBUG_C0\COREJTAGDEBUG_C0.v,hdl"
+STATE="utd"
+TIME="1568561263"
+SIZE="9460"
+PARENT="<project>\component\work\COREJTAGDEBUG_C0\COREJTAGDEBUG_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\JTAG\JTAG.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568561406"
+SIZE="6788"
+ENDFILE
+VALUE "<project>\component\work\JTAG\JTAG.v,hdl"
+STATE="utd"
+TIME="1568561405"
+SIZE="9424"
+PARENT="<project>\component\work\JTAG\JTAG.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\JTAG_0\JTAG_0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568561385"
+SIZE="6796"
+ENDFILE
+VALUE "<project>\component\work\JTAG_0\JTAG_0.v,hdl"
+STATE="utd"
+TIME="1568561385"
+SIZE="9430"
+PARENT="<project>\component\work\JTAG_0\JTAG_0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\MainClockCCC\MainClockCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568546476"
+SIZE="10125"
+ENDFILE
+VALUE "<project>\component\work\MainClockCCC\MainClockCCC.v,hdl"
+STATE="utd"
+TIME="1568546475"
+SIZE="2262"
+PARENT="<project>\component\work\MainClockCCC\MainClockCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568546475"
+SIZE="741"
+PARENT="<project>\component\work\MainClockCCC\MainClockCCC.cxf"
+ENDFILE
+VALUE "<project>\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v,hdl"
+STATE="utd"
+TIME="1568546475"
+SIZE="1796"
+PARENT="<project>\component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1568566452"
+SIZE="3917"
+ENDFILE
+VALUE "<project>\component\work\top\top.v,hdl"
+STATE="utd"
+TIME="1568566451"
+SIZE="4734"
+PARENT="<project>\component\work\top\top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\creative.pdc,io_pdc"
+STATE="utd"
+TIME="1568561978"
+SIZE="3181"
+ENDFILE
+VALUE "<project>\constraint\user.sdc,sdc"
+STATE="utd"
+TIME="1568546642"
+SIZE="87"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\top.ide_des,ide_des"
+STATE="utd"
+TIME="1568546485"
+SIZE="364"
+ENDFILE
+VALUE "<project>\hdl\Blinker.vhd,hdl"
+STATE="utd"
+TIME="1568544068"
+SIZE="538"
+ENDFILE
+VALUE "<project>\hdl\Murax.v,hdl"
+STATE="utd"
+TIME="1568566341"
+SIZE="291039"
+ENDFILE
+VALUE "<project>\stimulus\plltest.v,tb_hdl"
+STATE="utd"
+TIME="1568542989"
+SIZE="1500"
+ENDFILE
+VALUE "<project>\stimulus\plltest.vhd,tb_hdl"
+STATE="utd"
+TIME="1568542944"
+SIZE="1596"
+ENDFILE
+VALUE "<project>\synthesis\rs232_sender.so,so"
+STATE="utd"
+TIME="1568543970"
+SIZE="242"
+ENDFILE
+VALUE "<project>\synthesis\rs232_sender_syn.prj,prj"
+STATE="utd"
+TIME="1568543971"
+SIZE="1992"
+ENDFILE
+VALUE "<project>\synthesis\rs232_sender_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1568543970"
+SIZE="899"
+ENDFILE
+VALUE "<project>\synthesis\top.so,so"
+STATE="utd"
+TIME="1568560816"
+SIZE="224"
+ENDFILE
+VALUE "<project>\synthesis\top.vm,syn_vm"
+STATE="utd"
+TIME="1568560815"
+SIZE="1728415"
+ENDFILE
+VALUE "<project>\synthesis\top_syn.prj,prj"
+STATE="utd"
+TIME="1568560817"
+SIZE="2471"
+ENDFILE
+VALUE "<project>\synthesis\top_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1568560815"
+SIZE="1334"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "top::work"
+FILE "<project>\component\work\top\top.v,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\top.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "COREJTAGDEBUG::COREJTAGDEBUG_LIB"
+FILE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\mti\corejtagdebug_wave.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST COREJTAGDEBUG
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST COREJTAGDEBUG
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\mti\corejtagdebug_wave.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=FALSE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Designer\binfp\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "top::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\top.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "COREJTAGDEBUG::COREJTAGDEBUG_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:top_compile_netlist.log
+HDL;hdl\Murax.v;0
+HDL;constraint\run_synth_check.tcl;0
+StartPage;StartPage;0
+Constraint Manager;Constraint Manager;0
+HDL;constraint\io\creative.pdc;0
+SmartDesign;top;0
+HDL;hdl\Blinker.vhd;0
+HDL;constraint\user.sdc;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Apb3Decoder::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "Apb3Gpio::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "BufferCC_2_::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "Apb3Router::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "Apb3UartCtrl::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "StreamFifo::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "UartCtrl::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "Blinker::work","hdl\Blinker.vhd","FALSE","FALSE"
+ENDLIST
+LIST "BufferCC::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "BufferCC_1_::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "BufferCC_2_::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "BufferCC_3_::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_C0::work","component\work\COREJTAGDEBUG_C0\COREJTAGDEBUG_C0.v","TRUE","FALSE"
+SUBBLOCK "COREJTAGDEBUG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v","FALSE","FALSE"
+ENDLIST
+LIST "FlowCCByToggle::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "BufferCC_1_::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "InterruptCtrl::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "JTAG::work","component\work\JTAG\JTAG.v","TRUE","FALSE"
+SUBBLOCK "COREJTAGDEBUG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v","FALSE","FALSE"
+ENDLIST
+LIST "JTAG_0::work","component\work\JTAG_0\JTAG_0.v","TRUE","FALSE"
+SUBBLOCK "COREJTAGDEBUG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v","FALSE","FALSE"
+ENDLIST
+LIST "JtagBridge::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "FlowCCByToggle::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "MainClockCCC::work","component\work\MainClockCCC\MainClockCCC.v","TRUE","FALSE"
+SUBBLOCK "MainClockCCC_MainClockCCC_0_FCCC::work","component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "MainClockCCC_MainClockCCC_0_FCCC::work","component\work\MainClockCCC\MainClockCCC_0\MainClockCCC_MainClockCCC_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "Murax::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "Apb3Decoder::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "Apb3Gpio::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "Apb3Router::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "Apb3UartCtrl::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "BufferCC_3_::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "JtagBridge::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "MuraxApb3Timer::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "MuraxMasterArbiter::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "MuraxPipelinedMemoryBusRam::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "PipelinedMemoryBusToApbBridge::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "SystemDebugger::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "VexRiscv::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "MuraxApb3Timer::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "InterruptCtrl::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "Prescaler::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "Timer::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "MuraxMasterArbiter::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "MuraxPipelinedMemoryBusRam::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "PipelinedMemoryBusToApbBridge::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "Prescaler::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "StreamFifo::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "StreamFifoLowLatency::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "SystemDebugger::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "Timer::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "top::work","component\work\top\top.v","TRUE","FALSE"
+SUBBLOCK "Blinker::work","hdl\Blinker.vhd","FALSE","FALSE"
+SUBBLOCK "JTAG::work","component\work\JTAG\JTAG.v","TRUE","FALSE"
+SUBBLOCK "MainClockCCC::work","component\work\MainClockCCC\MainClockCCC.v","TRUE","FALSE"
+SUBBLOCK "Murax::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "UartCtrl::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "UartCtrlRx::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "UartCtrlTx::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "UartCtrlRx::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "BufferCC::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "UartCtrlTx::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "VexRiscv::work","hdl\Murax.v","FALSE","FALSE"
+SUBBLOCK "StreamFifoLowLatency::work","hdl\Murax.v","FALSE","FALSE"
+ENDLIST
+LIST "plltest::work","stimulus\plltest.v","FALSE","TRUE"
+SUBBLOCK "MainClockCCC::work","component\work\MainClockCCC\MainClockCCC.v","TRUE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJTAG_WRAPPER::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJTAG_WRAPPER::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_ujtag_wrapper.v","FALSE","FALSE"
+ENDLIST
+LIST "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_UJ_JTAG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_uj_jtag.v","FALSE","FALSE"
+SUBBLOCK "corejtagdebug_bufd::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug_bufd.v","FALSE","FALSE"
+ENDLIST
+LIST "COREJTAGDEBUG_TESTBENCH::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_testbench.v","FALSE","TRUE"
+SUBBLOCK "COREJTAGDEBUG::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\core\corejtagdebug.v","FALSE","FALSE"
+SUBBLOCK "COREJTAGDEBUG_HOST_EMULATOR::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v","FALSE","TRUE"
+SUBBLOCK "COREJTAGDEBUG_JTAG_TAP::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v","FALSE","TRUE"
+ENDLIST
+LIST "COREJTAGDEBUG_HOST_EMULATOR::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_host_emulator.v","FALSE","TRUE"
+ENDLIST
+LIST "COREJTAGDEBUG_JTAG_TAP::COREJTAGDEBUG_LIB","component\Actel\DirectCore\COREJTAGDEBUG\3.1.100\rtl\vlog\test\corejtagdebug_jtag_tap.v","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\creative_board.pdc"
+VALUE "constraint\io\creative.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\user.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>rs232_sender</design>
+	<target_verilog>W:\projects\security-contest\libero\contest\synthesis\rs232_sender.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,933 @@
+# Sun Sep 15 18:54:26 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-433C5TG
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":168:8:168:52|Tristate driver UJTAG_BYPASS_TDO_3_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_3_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":161:8:161:52|Tristate driver UJTAG_BYPASS_TDO_2_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_2_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":154:8:154:52|Tristate driver UJTAG_BYPASS_TDO_1_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_1_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"w:\projects\security-contest\libero\contest\component\actel\directcore\corejtagdebug\3.1.100\core\corejtagdebug.v":147:8:147:52|Tristate driver UJTAG_BYPASS_TDO_0_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) on net UJTAG_BYPASS_TDO_0_1 (in view: COREJTAGDEBUG_LIB.COREJTAGDEBUG_Z1_layer0(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FX1172 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|User-specified initial value defined for instance Murax_0.system_cpu.CsrPlugin_minstret[63:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|User-specified initial value defined for instance Murax_0.system_cpu.CsrPlugin_mcycle[63:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5909:2:5909:7|User-specified initial value defined for instance Murax_0.jtagBridge_1_.jtag_tap_fsm_state[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"w:\projects\security-contest\libero\contest\hdl\murax.v":700:2:700:7|User-specified initial value defined for instance Murax_0.jtagBridge_1_.flowCCByToggle_1_.inputArea_target is being ignored due to limitations in architecture. 
+@W: FX1172 :"w:\projects\security-contest\libero\contest\hdl\murax.v":7490:2:7490:7|User-specified initial value defined for instance Murax_0.resetCtrl_systemClkResetCounter[5:0] is being ignored due to limitations in architecture. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|RAM system_ram.ram_symbol3[7:0] (in view: work.Murax(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|RAM system_ram.ram_symbol2[7:0] (in view: work.Murax(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|RAM system_ram.ram_symbol1[7:0] (in view: work.Murax(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|Using block RAM for single-port RAM
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6059:2:6059:7|RAM system_ram.ram_symbol0[7:0] (in view: work.Murax(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":7490:2:7490:7|Found counter in view:work.Murax(verilog) instance resetCtrl_systemClkResetCounter[5:0] 
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6019:2:6019:7|Removing sequential instance systemDebugger_1_.dispatcher_dataShifter[0] (in view: work.Murax(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":6019:2:6019:7|Removing sequential instance systemDebugger_1_.dispatcher_dataShifter[1] (in view: work.Murax(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+Encoding state machine _zz_188_[4:0] (in view: work.VexRiscv(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2485:2:2485:7|Property "block_ram" or "no_rw_check" found for RAM RegFilePlugin_regFile_1[31:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2485:2:2485:7|RAM RegFilePlugin_regFile_1[31:0] (in view: work.VexRiscv(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2485:2:2485:7|Property "block_ram" or "no_rw_check" found for RAM RegFilePlugin_regFile[31:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2485:2:2485:7|RAM RegFilePlugin_regFile[31:0] (in view: work.VexRiscv(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Found counter in view:work.VexRiscv(verilog) instance memory_DivPlugin_div_counter_value[5:0] 
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":656:2:656:7|Removing sequential instance IBusSimplePlugin_rspJoin_rspBuffer_c._zz_4_[0] (in view: work.VexRiscv(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing sequential instance NoName (in view: work.VexRiscv(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[15] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[14] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[13] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[12] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[11] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[10] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[9] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[8] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[7] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[6] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[5] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[4] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[3] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[2] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[1] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_LH[0] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[15] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[14] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[13] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[12] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[11] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[10] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[9] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[8] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[7] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[6] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[5] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[4] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[3] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[2] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[1] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Register bit execute_to_memory_MUL_HL[0] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Register bit IBusSimplePlugin_fetchPc_pcReg[0] (in view view:work.VexRiscv(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4669:36:4669:64|Found 32 by 32 bit equality operator ('==') execute_BranchPlugin_eq (in view: work.VexRiscv(verilog))
+@W: BN132 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing instance Murax_0.system_cpu.decode_to_execute_ALU_BITWISE_CTRL[1] because it is equivalent to instance Murax_0.system_cpu.decode_to_execute_INSTRUCTION[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing instance Murax_0.system_cpu.decode_to_execute_INSTRUCTION[5] because it is equivalent to instance Murax_0.system_cpu.decode_to_execute_MEMORY_STORE. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":872:2:872:7|Property "block_ram" or "no_rw_check" found for RAM uartCtrl_1__io_read_queueWithOccupancy.logic_ram[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":872:2:872:7|RAM uartCtrl_1__io_read_queueWithOccupancy.logic_ram[7:0] (in view: work.Apb3UartCtrl(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"w:\projects\security-contest\libero\contest\hdl\murax.v":872:2:872:7|Property "block_ram" or "no_rw_check" found for RAM bridge_write_streamUnbuffered_queueWithOccupancy.logic_ram[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"w:\projects\security-contest\libero\contest\hdl\murax.v":872:2:872:7|RAM bridge_write_streamUnbuffered_queueWithOccupancy.logic_ram[7:0] (in view: work.Apb3UartCtrl(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":812:2:812:7|Found counter in view:work.UartCtrl(verilog) instance clockDivider_counter[19:0] 
+Encoding state machine stateMachine_state[4:0] (in view: work.UartCtrlTx(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@W: MO197 :"w:\projects\security-contest\libero\contest\hdl\murax.v":251:2:251:7|Removing FSM register stateMachine_state[3] (in view view:work.UartCtrlTx(verilog)) because its output is a constant.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":251:2:251:7|Removing sequential instance stateMachine_state[0] (in view: work.UartCtrlTx(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+Encoding state machine stateMachine_state[4:0] (in view: work.UartCtrlRx(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1020:2:1020:7|Found counter in view:work.MuraxApb3Timer(verilog) instance timerB.counter[15:0] 
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1020:2:1020:7|Found counter in view:work.MuraxApb3Timer(verilog) instance timerA.counter[15:0] 
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1004:21:1004:40|Found 16 by 16 bit equality operator ('==') timerA.limitHit (in view: work.MuraxApb3Timer(verilog))
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":1004:21:1004:40|Found 16 by 16 bit equality operator ('==') timerB.limitHit (in view: work.MuraxApb3Timer(verilog))
+@N: MO231 :"w:\projects\security-contest\libero\contest\hdl\murax.v":980:2:980:7|Found counter in view:work.Prescaler(verilog) instance counter[15:0] 
+@N: MF179 :"w:\projects\security-contest\libero\contest\hdl\murax.v":979:24:979:43|Found 16 by 16 bit equality operator ('==') io_overflow (in view: work.Prescaler(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 155MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 186MB peak: 186MB)
+
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing sequential instance Murax_0.system_cpu.decode_to_execute_SRC1[16] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Removing sequential instance Murax_0.system_cpu.decode_to_execute_SRC2[16] (in view: work.top(verilog)) because it does not drive other instances.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 198MB peak: 199MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 198MB peak: 199MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 216MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 188MB peak: 216MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 191MB peak: 216MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 189MB peak: 216MB)
+
+@N: BN362 :"w:\projects\security-contest\libero\contest\hdl\murax.v":297:2:297:7|Removing sequential instance Murax_0.system_uartCtrl.uartCtrl_1_.tx.stateMachine_parity (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 190MB peak: 216MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 207MB peak: 262MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:14s		    -6.25ns		3910 /      2077
+   2		0h:00m:14s		    -5.25ns		3419 /      2077
+   3		0h:00m:14s		    -4.56ns		3419 /      2077
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4950:10:4950:164|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0 (in view: work.top(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3867:31:3867:165|Replicating instance Murax_0.system_cpu.dBus_cmd_valid (in view: work.top(verilog)) with 39 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Replicating instance Murax_0.system_cpu.memory_arbitration_isValid (in view: work.top(verilog)) with 44 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3775:76:3775:192|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_inst_sn_m13 (in view: work.top(verilog)) with 32 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3775:76:3775:192|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_inst_sn_m11 (in view: work.top(verilog)) with 30 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3586:46:3586:418|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[12] (in view: work.top(verilog)) with 36 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":5214:2:5214:7|Replicating instance Murax_0.system_cpu.execute_to_memory_IS_DIV (in view: work.top(verilog)) with 33 loads 1 time to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":2202:21:2202:69|Replicating instance Murax_0.system_cpu._zz_196_ (in view: work.top(verilog)) with 70 loads 2 times to improve timing.
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 14 LUTs via timing driven replication
+
+   4		0h:00m:16s		    -3.97ns		3445 /      2080
+   5		0h:00m:16s		    -3.64ns		3448 /      2080
+   6		0h:00m:16s		    -3.51ns		3455 /      2080
+   7		0h:00m:16s		    -3.29ns		3459 /      2080
+   8		0h:00m:17s		    -3.12ns		3461 /      2080
+   9		0h:00m:17s		    -3.10ns		3464 /      2080
+  10		0h:00m:17s		    -2.89ns		3465 /      2080
+  11		0h:00m:17s		    -2.69ns		3471 /      2080
+  12		0h:00m:17s		    -2.54ns		3474 /      2080
+  13		0h:00m:17s		    -3.38ns		3483 /      2080
+  14		0h:00m:17s		    -2.60ns		3484 /      2080
+  15		0h:00m:17s		    -2.41ns		3487 /      2080
+  16		0h:00m:17s		    -3.08ns		3490 /      2080
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Replicating instance Murax_0.system_cpu.execute_arbitration_isValid (in view: work.top(verilog)) with 21 loads 1 time to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4971:10:4971:118|Replicating instance Murax_0.system_cpu.execute_arbitration_removeIt_i (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":3775:76:3775:192|Replicating instance Murax_0.system_cpu.IBusSimplePlugin_decompressor_inputBeforeStage_payload_rsp_inst_sn_m15 (in view: work.top(verilog)) with 41 loads 3 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4894:2:4894:7|Replicating instance Murax_0.system_cpu.execute_LightShifterPlugin_isActive (in view: work.top(verilog)) with 37 loads 2 times to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":7408:4:7408:7|Replicating instance Murax_0._zz_19_[10] (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"w:\projects\security-contest\libero\contest\hdl\murax.v":4962:6:4962:7|Replicating instance Murax_0.system_cpu._zz_94__4 (in view: work.top(verilog)) with 2 loads 1 time(s) to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 7 LUTs via timing driven replication
+
+  17		0h:00m:18s		    -2.22ns		3495 /      2083
+  18		0h:00m:18s		    -2.25ns		3502 /      2083
+  19		0h:00m:18s		    -2.25ns		3511 /      2083
+@N: FP130 |Promoting Net Murax_0.resetCtrl_systemReset on CLKINT  I_1059 
+@N: FP130 |Promoting Net JTAG_0.JTAG_0.iURSTB on CLKINT  I_1060 
+@N: FP130 |Promoting Net JTAG_0.JTAG_0.iUDRCK on CLKINT  I_1061 
+@N: FP130 |Promoting Net Murax_0.resetCtrl_mainClkReset on CLKINT  I_1062 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 226MB peak: 262MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 228MB peak: 262MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 17 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 2182 clock pin(s) of sequential element(s)
+0 instances converted, 2182 sequential instances remain driven by gated/generated clocks
+
+=================================================================== Non-Gated/Non-Generated Clocks ===================================================================
+Clock Tree ID     Driving Element                                                    Drive Element Type     Fanout     Sample Instance                                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     UJTAG                  17         JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.UTDODRV
+======================================================================================================================================================================
+============================================================================================================================= Gated/Generated Clocks =============================================================================================================================
+Clock Tree ID     Driving Element                                         Drive Element Type     Fanout     Sample Instance                                         Explanation                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       MainClockCCC_0.MainClockCCC_0.CCC_INST                  CCC                    2099       Blinker_0.LED1_GREEN                                    Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.un1_DUT_TCK     CFG4                   83         Murax_0.jtagBridge_1_.jtag_tap_tdoUnbufferd_regNext     Clock conversion disabled                                                                                     
+==================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 182MB peak: 262MB)
+
+Writing Analyst data base W:\projects\security-contest\libero\contest\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 215MB peak: 262MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 212MB peak: 262MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:23s; Memory used current: 211MB peak: 262MB)
+
+@W: MT246 :"w:\projects\security-contest\libero\contest\component\work\mainclockccc\mainclockccc_0\mainclockccc_mainclockccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MainClockCCC_0.MainClockCCC_0.GL0_net.
+@W: MT420 |Found inferred clock COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock with period 10.00ns. Please declare a user-defined clock on net JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UDRCK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Sep 15 18:54:51 2019
+#
+
+
+Top view:               top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    W:\projects\security-contest\libero\contest\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.895
+
+                                                            Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                              Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock            100.0 MHz     104.9 MHz     10.000        9.531         0.234      inferred     Inferred_clkgroup_2
+MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     91.8 MHz      10.000        10.895        -0.895     inferred     Inferred_clkgroup_0
+System                                                      100.0 MHz     178.2 MHz     10.000        5.612         4.388      system       system_clkgroup    
+===============================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                 Ending                                                   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                   COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock         |  10.000      4.388   |  No paths    -      |  10.000      6.661  |  No paths    -    
+MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock  MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock  |  10.000      -0.895  |  No paths    -      |  No paths    -      |  No paths    -    
+MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock         |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock         System                                                   |  10.000      8.362   |  No paths    -      |  No paths    -      |  No paths    -    
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock         COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock         |  10.000      3.442   |  No paths    -      |  5.000       0.234  |  5.000       2.436
+=========================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                     Starting                                                                                        Arrival          
+Instance                                             Reference                                            Type     Pin     Net                       Time        Slack
+                                                     Clock                                                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[2]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       state[2]                  0.108       0.234
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[0]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       state[0]                  0.108       0.306
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[1]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       state[1]                  0.108       0.339
+Murax_0.jtagBridge_1_.jtag_tap_fsm_state[0]          COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       jtag_tap_fsm_state[0]     0.108       0.919
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[3]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       state[3]                  0.108       0.970
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[4]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       state[4]                  0.087       1.044
+Murax_0.jtagBridge_1_.jtag_tap_fsm_state[2]          COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       jtag_tap_fsm_state[2]     0.108       1.124
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.count[3]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       count[3]                  0.108       1.124
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.count[2]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       count[2]                  0.108       1.192
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.count[1]     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      Q       count[1]                  0.108       1.200
+======================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                Starting                                                                                        Required          
+Instance                                                        Reference                                            Type     Pin     Net                       Time         Slack
+                                                                Clock                                                                                                             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.endofshift              COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       endofshift_2              4.745        0.234
+Murax_0.jtagBridge_1_.jtag_tap_tdoUnbufferd_regNext             COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       jtag_tap_tdoUnbufferd     4.745        0.919
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.tmsenb                  COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       un6_countnext_i           4.745        2.390
+Murax_0.jtagBridge_1_.jtag_tap_fsm_state[1]                     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       N_31                      4.745        2.436
+Murax_0.jtagBridge_1_.jtag_tap_fsm_state[0]                     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       N_18_i                    4.745        2.849
+Murax_0.jtagBridge_1_.jtag_tap_fsm_state[2]                     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       _zz_1__2[2]               4.745        2.910
+Murax_0.jtagBridge_1_.jtag_tap_fsm_state[3]                     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       N_23_i                    4.745        2.910
+Murax_0.jtagBridge_1_.flowCCByToggle_1_.inputArea_data_last     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       JTAG_0_TGT_TMS_0          4.745        3.350
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[1]                COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       N_46_i                    9.745        3.442
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[4]                COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     SLE      D       state_24[4]               9.745        3.492
+==================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.745
+
+    - Propagation time:                      4.510
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.234
+
+    Number of logic level(s):                4
+    Starting point:                          JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[2] / Q
+    Ending point:                            JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.endofshift / D
+    The start point is clocked by            COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock [falling] on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[2]                 SLE      Q        Out     0.108     0.108       -         
+state[2]                                                         Net      -        -       1.170     -           19        
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.countnext                CFG3     C        In      -         1.278       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.countnext                CFG3     Y        Out     0.210     1.488       -         
+countnext                                                        Net      -        -       1.102     -           11        
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.countnextzero_m6_1_0     CFG4     B        In      -         2.590       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.countnextzero_m6_1_0     CFG4     Y        Out     0.165     2.754       -         
+countnextzero_m6_1                                               Net      -        -       0.248     -           1         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.countnextzero_m6         CFG4     B        In      -         3.003       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.countnextzero_m6         CFG4     Y        Out     0.165     3.167       -         
+countnextzero                                                    Net      -        -       1.017     -           9         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.endofshift_2             CFG2     A        In      -         4.185       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.endofshift_2             CFG2     Y        Out     0.077     4.262       -         
+endofshift_2                                                     Net      -        -       0.248     -           1         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.endofshift               SLE      D        In      -         4.510       -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 4.766 is 0.980(20.6%) logic and 3.786(79.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                       Starting                                                                                                                                   Arrival           
+Instance                                                               Reference                                                   Type        Pin           Net                                                  Time        Slack 
+                                                                       Clock                                                                                                                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0                         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     ram_symbol2_ram_symbol2_0_0_NEWA[0]                  2.263       -0.895
+Murax_0.system_ram.ram_symbol0_ram_symbol0_0_0                         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     ram_symbol0_ram_symbol0_0_0_NEWA[0]                  2.263       -0.800
+Murax_0.system_ram.ram_symbol3_ram_symbol3_0_7                         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     ram_symbol3_ram_symbol3_0_7_NEWA[0]                  2.263       -0.788
+Murax_0.system_mainBusDecoder_logic_rspPending                         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             system_mainBusDecoder_logic_rspPending               0.087       -0.718
+Murax_0.system_mainBusArbiter.rspTarget                                MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             rspTarget                                            0.087       -0.658
+Murax_0.system_apbBridge.pipelinedMemoryBusStage_rsp_m2sPipe_valid     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             system_apbBridge_io_pipelinedMemoryBus_rsp_valid     0.087       -0.655
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_1                         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     ram_symbol2_ram_symbol2_0_1_NEWA[0]                  2.263       -0.633
+Murax_0.system_ram.ram_symbol1_ram_symbol1_0_6                         MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     ram_symbol1_ram_symbol1_0_6_NEWA[0]                  2.263       -0.633
+Murax_0.system_cpu.writeBack_arbitration_isValid                       MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             writeBack_arbitration_isValid                        0.087       -0.601
+Murax_0.system_ram._zz_1_                                              MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE         Q             system_ram_io_bus_rsp_valid                          0.087       -0.572
+====================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                          Starting                                                                                                              Required           
+Instance                                                  Reference                                                   Type     Pin     Net                                      Time         Slack 
+                                                          Clock                                                                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[10]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[11]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[12]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[13]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[14]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[15]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[16]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[17]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[18]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[19]     MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      IBusSimplePlugin_fetchPc_pcReg5_rep1     9.662        -0.895
+===================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      10.558
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.895
+
+    Number of logic level(s):                9
+    Starting point:                          Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0 / A_DOUT[0]
+    Ending point:                            Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[21] / EN
+    The start point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0                       RAM1K18     A_DOUT[0]     Out     2.263     2.263       -         
+ram_symbol2_ram_symbol2_0_0_NEWA[0]                                  Net         -             -       0.248     -           1         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        B             In      -         2.511       -         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        Y             Out     0.165     2.676       -         
+system_ram_io_bus_rsp_payload_data[16]                               Net         -             -       0.497     -           2         
+Murax_0._zz_19_[16]                                                  CFG3        C             In      -         3.173       -         
+Murax_0._zz_19_[16]                                                  CFG3        Y             Out     0.203     3.376       -         
+_zz_19_[16]                                                          Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        B             In      -         4.231       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        Y             Out     0.143     4.374       -         
+IBusSimplePlugin_decompressor_raw_1[0]                               Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        D             In      -         4.623       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        Y             Out     0.317     4.940       -         
+IBusSimplePlugin_decompressor_raw[0]                                 Net         -             -       1.179     -           20        
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        A             In      -         6.119       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        Y             Out     0.100     6.219       -         
+un3_IBusSimplePlugin_iBusRsp_output_ready_0_1                        Net         -             -       0.248     -           1         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        D             In      -         6.468       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        Y             Out     0.317     6.785       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_1                              Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        D             In      -         7.640       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        Y             Out     0.326     7.966       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0                              Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        D             In      -         8.215       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        Y             Out     0.317     8.532       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1                                  Net         -             -       0.745     -           3         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        C             In      -         9.277       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        Y             Out     0.226     9.503       -         
+IBusSimplePlugin_fetchPc_pcReg5                                      Net         -             -       1.054     -           11        
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[21]                SLE         EN            In      -         10.558      -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 10.895 is 4.715(43.3%) logic and 6.180(56.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      10.558
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.895
+
+    Number of logic level(s):                9
+    Starting point:                          Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0 / A_DOUT[0]
+    Ending point:                            Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[10] / EN
+    The start point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0                       RAM1K18     A_DOUT[0]     Out     2.263     2.263       -         
+ram_symbol2_ram_symbol2_0_0_NEWA[0]                                  Net         -             -       0.248     -           1         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        B             In      -         2.511       -         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        Y             Out     0.165     2.676       -         
+system_ram_io_bus_rsp_payload_data[16]                               Net         -             -       0.497     -           2         
+Murax_0._zz_19_[16]                                                  CFG3        C             In      -         3.173       -         
+Murax_0._zz_19_[16]                                                  CFG3        Y             Out     0.203     3.376       -         
+_zz_19_[16]                                                          Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        B             In      -         4.231       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        Y             Out     0.143     4.374       -         
+IBusSimplePlugin_decompressor_raw_1[0]                               Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        D             In      -         4.623       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        Y             Out     0.317     4.940       -         
+IBusSimplePlugin_decompressor_raw[0]                                 Net         -             -       1.179     -           20        
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        A             In      -         6.119       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        Y             Out     0.100     6.219       -         
+un3_IBusSimplePlugin_iBusRsp_output_ready_0_1                        Net         -             -       0.248     -           1         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        D             In      -         6.468       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        Y             Out     0.317     6.785       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_1                              Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        D             In      -         7.640       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        Y             Out     0.326     7.966       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0                              Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        D             In      -         8.215       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        Y             Out     0.317     8.532       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1                                  Net         -             -       0.745     -           3         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_rep1            CFG4        C             In      -         9.277       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_rep1            CFG4        Y             Out     0.226     9.503       -         
+IBusSimplePlugin_fetchPc_pcReg5_rep1                                 Net         -             -       1.054     -           11        
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[10]                SLE         EN            In      -         10.558      -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 10.895 is 4.715(43.3%) logic and 6.180(56.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      10.558
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.895
+
+    Number of logic level(s):                9
+    Starting point:                          Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0 / A_DOUT[0]
+    Ending point:                            Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[26] / EN
+    The start point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0                       RAM1K18     A_DOUT[0]     Out     2.263     2.263       -         
+ram_symbol2_ram_symbol2_0_0_NEWA[0]                                  Net         -             -       0.248     -           1         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        B             In      -         2.511       -         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        Y             Out     0.165     2.676       -         
+system_ram_io_bus_rsp_payload_data[16]                               Net         -             -       0.497     -           2         
+Murax_0._zz_19_[16]                                                  CFG3        C             In      -         3.173       -         
+Murax_0._zz_19_[16]                                                  CFG3        Y             Out     0.203     3.376       -         
+_zz_19_[16]                                                          Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        B             In      -         4.231       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        Y             Out     0.143     4.374       -         
+IBusSimplePlugin_decompressor_raw_1[0]                               Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        D             In      -         4.623       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        Y             Out     0.317     4.940       -         
+IBusSimplePlugin_decompressor_raw[0]                                 Net         -             -       1.179     -           20        
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        A             In      -         6.119       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        Y             Out     0.100     6.219       -         
+un3_IBusSimplePlugin_iBusRsp_output_ready_0_1                        Net         -             -       0.248     -           1         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        D             In      -         6.468       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        Y             Out     0.317     6.785       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_1                              Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        D             In      -         7.640       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        Y             Out     0.326     7.966       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0                              Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        D             In      -         8.215       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        Y             Out     0.317     8.532       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1                                  Net         -             -       0.745     -           3         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        C             In      -         9.277       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        Y             Out     0.226     9.503       -         
+IBusSimplePlugin_fetchPc_pcReg5                                      Net         -             -       1.054     -           11        
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[26]                SLE         EN            In      -         10.558      -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 10.895 is 4.715(43.3%) logic and 6.180(56.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      10.558
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.895
+
+    Number of logic level(s):                9
+    Starting point:                          Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0 / A_DOUT[0]
+    Ending point:                            Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[25] / EN
+    The start point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0                       RAM1K18     A_DOUT[0]     Out     2.263     2.263       -         
+ram_symbol2_ram_symbol2_0_0_NEWA[0]                                  Net         -             -       0.248     -           1         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        B             In      -         2.511       -         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        Y             Out     0.165     2.676       -         
+system_ram_io_bus_rsp_payload_data[16]                               Net         -             -       0.497     -           2         
+Murax_0._zz_19_[16]                                                  CFG3        C             In      -         3.173       -         
+Murax_0._zz_19_[16]                                                  CFG3        Y             Out     0.203     3.376       -         
+_zz_19_[16]                                                          Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        B             In      -         4.231       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        Y             Out     0.143     4.374       -         
+IBusSimplePlugin_decompressor_raw_1[0]                               Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        D             In      -         4.623       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        Y             Out     0.317     4.940       -         
+IBusSimplePlugin_decompressor_raw[0]                                 Net         -             -       1.179     -           20        
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        A             In      -         6.119       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        Y             Out     0.100     6.219       -         
+un3_IBusSimplePlugin_iBusRsp_output_ready_0_1                        Net         -             -       0.248     -           1         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        D             In      -         6.468       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        Y             Out     0.317     6.785       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_1                              Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        D             In      -         7.640       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        Y             Out     0.326     7.966       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0                              Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        D             In      -         8.215       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        Y             Out     0.317     8.532       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1                                  Net         -             -       0.745     -           3         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        C             In      -         9.277       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        Y             Out     0.226     9.503       -         
+IBusSimplePlugin_fetchPc_pcReg5                                      Net         -             -       1.054     -           11        
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[25]                SLE         EN            In      -         10.558      -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 10.895 is 4.715(43.3%) logic and 6.180(56.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      10.558
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.895
+
+    Number of logic level(s):                9
+    Starting point:                          Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0 / A_DOUT[0]
+    Ending point:                            Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[24] / EN
+    The start point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            MainClockCCC_MainClockCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0                       RAM1K18     A_DOUT[0]     Out     2.263     2.263       -         
+ram_symbol2_ram_symbol2_0_0_NEWA[0]                                  Net         -             -       0.248     -           1         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        B             In      -         2.511       -         
+Murax_0.system_ram.ram_symbol2_ram_symbol2_0_0_en_RNIE0SA            CFG3        Y             Out     0.165     2.676       -         
+system_ram_io_bus_rsp_payload_data[16]                               Net         -             -       0.497     -           2         
+Murax_0._zz_19_[16]                                                  CFG3        C             In      -         3.173       -         
+Murax_0._zz_19_[16]                                                  CFG3        Y             Out     0.203     3.376       -         
+_zz_19_[16]                                                          Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        B             In      -         4.231       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw_1[0]            CFG3        Y             Out     0.143     4.374       -         
+IBusSimplePlugin_decompressor_raw_1[0]                               Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        D             In      -         4.623       -         
+Murax_0.system_cpu.IBusSimplePlugin_decompressor_raw[0]              CFG4        Y             Out     0.317     4.940       -         
+IBusSimplePlugin_decompressor_raw[0]                                 Net         -             -       1.179     -           20        
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        A             In      -         6.119       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0_1     CFG3        Y             Out     0.100     6.219       -         
+un3_IBusSimplePlugin_iBusRsp_output_ready_0_1                        Net         -             -       0.248     -           1         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        D             In      -         6.468       -         
+Murax_0.system_cpu.un3_IBusSimplePlugin_iBusRsp_output_ready_0       CFG4        Y             Out     0.317     6.785       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_1                              Net         -             -       0.855     -           5         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        D             In      -         7.640       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0           CFG4        Y             Out     0.326     7.966       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1_1_0                              Net         -             -       0.248     -           1         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        D             In      -         8.215       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0_1               CFG4        Y             Out     0.317     8.532       -         
+IBusSimplePlugin_fetchPc_pcReg5_0_1                                  Net         -             -       0.745     -           3         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        C             In      -         9.277       -         
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg5_0                 CFG4        Y             Out     0.226     9.503       -         
+IBusSimplePlugin_fetchPc_pcReg5                                      Net         -             -       1.054     -           11        
+Murax_0.system_cpu.IBusSimplePlugin_fetchPc_pcReg[24]                SLE         EN            In      -         10.558      -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 10.895 is 4.715(43.3%) logic and 6.180(56.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                  Arrival          
+Instance                                                           Reference     Type      Pin          Net                  Time        Slack
+                                                                   Clock                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[0]     UIREGInt[0]          0.000       4.388
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[3]     UIREGInt[3]          0.000       4.443
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[2]     UIREGInt[2]          0.000       4.456
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[1]     UIREGInt[1]          0.000       4.491
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[4]     UIREGInt[4]          0.000       4.495
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[6]     UIREGInt[6]          0.000       4.582
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UTDI         JTAG_0_TGT_TDI_0     0.000       4.714
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[7]     UIREGInt[7]          0.000       4.963
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UIREG[5]     UIREGInt[5]          0.000       5.011
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     System        UJTAG     UDRSH        UDRSHInt             0.000       5.465
+==============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                Required          
+Instance                                             Reference     Type     Pin     Net                      Time         Slack
+                                                     Clock                                                                     
+-------------------------------------------------------------------------------------------------------------------------------
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[3]     System        SLE      D       state_24[3]              9.745        4.388
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[1]     System        SLE      D       N_46_i                   9.745        4.610
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[4]     System        SLE      D       state_24[4]              9.745        4.701
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.count[5]     System        SLE      D       count_19[5]              9.745        4.714
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[0]     System        SLE      D       state_24[0]              9.745        4.749
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[2]     System        SLE      D       state_24_1_iv_i[2]       9.745        4.915
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.count[2]     System        SLE      D       count_19[2]              9.745        5.157
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.count[4]     System        SLE      D       count_19[4]              9.745        5.214
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.tckgo        System        SLE      D       tckgo_10                 9.745        5.496
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.tckgo        System        SLE      EN      un1_tckgo_1_sqmuxa_i     9.662        5.624
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      5.357
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.388
+
+    Number of logic level(s):                7
+    Starting point:                          JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst / UIREG[0]
+    Ending point:                            JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                               Pin          Pin               Arrival     No. of    
+Name                                                               Type      Name         Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+JTAG_0.JTAG_0.genblk1\.genblk1\.genblk1\.UJTAG_inst.UJTAG_inst     UJTAG     UIREG[0]     Out     0.000     0.000       -         
+UIREGInt[0]                                                        Net       -            -       0.248     -           1         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.un2_UTDODRV_4              CFG4      D            In      -         0.248       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.un2_UTDODRV_4              CFG4      Y            Out     0.271     0.520       -         
+un2_UTDODRV_4                                                      Net       -            -       0.248     -           1         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.un2_UTDODRV                CFG4      C            In      -         0.768       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.un2_UTDODRV                CFG4      Y            Out     0.203     0.972       -         
+un2_UTDODRV                                                        Net       -            -       0.497     -           2         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state6                     CFG2      A            In      -         1.468       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state6                     CFG2      Y            Out     0.077     1.546       -         
+state6                                                             Net       -            -       0.896     -           6         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state6_RNIFEQ72            CFG4      D            In      -         2.441       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state6_RNIFEQ72            CFG4      Y            Out     0.326     2.768       -         
+un1_state_0_sqmuxa_1                                               Net       -            -       0.936     -           7         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state6_RNIODMS2            CFG4      C            In      -         3.704       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state6_RNIODMS2            CFG4      Y            Out     0.223     3.927       -         
+N_408                                                              Net       -            -       0.497     -           2         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state_24_1_iv_RNO[3]       CFG4      D            In      -         4.424       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state_24_1_iv_RNO[3]       CFG4      Y            Out     0.271     4.695       -         
+state_24_1_iv_2[3]                                                 Net       -            -       0.248     -           1         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state_24_1_iv[3]           CFG3      B            In      -         4.944       -         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state_24_1_iv[3]           CFG3      Y            Out     0.165     5.108       -         
+state_24[3]                                                        Net       -            -       0.248     -           1         
+JTAG_0.JTAG_0.genblk3\.genblk1\.UJ_JTAG.state[3]                   SLE       D            In      -         5.357       -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 5.612 is 1.792(31.9%) logic and 3.820(68.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 211MB peak: 262MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 211MB peak: 262MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CCC             1 use
+CLKINT          5 uses
+SYSRESET        1 use
+UJTAG           1 use
+CFG1           14 uses
+CFG2           283 uses
+CFG3           1230 uses
+CFG4           1354 uses
+
+Carry cells:
+ARI1            670 uses - used for arithmetic functions
+ARI1            21 uses - used for Wide-Mux implementation
+Total ARI1      691 uses
+
+
+Sequential Cells: 
+SLE            2147 uses
+
+DSP Blocks:    4 of 34 (11%)
+ MACC:         4 Mults
+
+I/O ports: 13
+I/O primitives: 7
+INBUF          2 uses
+OUTBUF         5 uses
+
+
+Global Clock Buffers: 5
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 32 of 31 (103%)
+Total Block RAMs (RAM64x18) : 4 of 34 (11%)
+
+Total LUTs:    3572
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 1152; LUTs = 1152;
+MACC     Interface Logic : SLEs = 144; LUTs = 144;
+
+Total number of SLEs after P&R:  2147 + 144 + 1152 + 144 = 3587;
+Total number of LUTs after P&R:  3572 + 144 + 1152 + 144 = 5012;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:24s; Memory used current: 56MB peak: 262MB)
+
+Process took 0h:00m:26s realtime, 0h:00m:24s cputime
+# Sun Sep 15 18:54:52 2019
+
+###########################################################]
