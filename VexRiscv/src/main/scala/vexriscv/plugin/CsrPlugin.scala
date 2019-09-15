@@ -547,6 +547,17 @@ class CsrPlugin(val config: CsrPluginConfig) extends Plugin[VexRiscv] with Excep
       mcycleAccess(CSR.MCYCLEH, mcycle(63 downto 32))
       minstretAccess(CSR.MINSTRET, minstret(31 downto 0))
       minstretAccess(CSR.MINSTRETH, minstret(63 downto 32))
+      
+      // litex CSR interrupt registers
+      val machineMaskCsr = Reg(Bits(xlen bits))
+      READ_WRITE(0xBC0, machineMaskCsr)
+      val machinePendingsCsr = Reg(Bits(xlen bits))
+      READ_WRITE(0xFC0, machinePendingsCsr)
+      val supervisorMaskCsr = Reg(Bits(xlen bits))
+      READ_WRITE(0x9C0, supervisorMaskCsr)
+      val supervisorPendingsCsr = Reg(Bits(xlen bits))
+      READ_WRITE(0xDC0, supervisorPendingsCsr)
+      
 
       if(supervisorGen) {
         for((id, enable) <- medeleg.mapping) medelegAccess(CSR.MEDELEG, id -> enable)
