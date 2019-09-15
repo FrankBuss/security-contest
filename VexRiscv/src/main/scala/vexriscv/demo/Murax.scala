@@ -55,11 +55,11 @@ object MuraxConfig{
   def default : MuraxConfig = default(false)
   def default(withXip : Boolean) =  MuraxConfig(
     coreFrequency         = 12 MHz,
-    onChipRamSize         = 256 kB,
+    onChipRamSize         = 48 kB,
     onChipRamHexFile      = null,
-    pipelineDBus          = true,
-    pipelineMainBus       = false,
-    pipelineApbBridge     = true,
+    pipelineDBus          = false,
+    pipelineMainBus       = true,
+    pipelineApbBridge     = false,
     gpioWidth = 32,
     xipConfig = ifGen(withXip) (SpiXdrMasterCtrl.MemoryMappingParameters(
       SpiXdrMasterCtrl.Parameters(8, 12, SpiXdrParameter(2, 2, 1)).addFullDuplex(0,1,false),

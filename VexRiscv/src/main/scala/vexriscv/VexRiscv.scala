@@ -104,6 +104,8 @@ class VexRiscv(val config : VexRiscvConfig) extends Component with Pipeline{
   val lastStageIsValid = CombInit(stages.last.arbitration.isValid) keep() addAttribute (Verilator.public)
   val lastStageIsFiring = CombInit(stages.last.arbitration.isFiring) keep() addAttribute (Verilator.public)
 
+  val executeLimit = Reg(Bits(32 bits)) init BigInt(0xffffffffl)
+
   //Verilator perf
   decode.arbitration.removeIt.noBackendCombMerge
   if(withMemoryStage){

@@ -141,10 +141,8 @@ class BranchPlugin(earlyBranch : Boolean,
     jumpInterface = pcManagerService.createJumpInterface(branchStage)
 
 
-    if (catchAddressMisalignedForReal) {
-      val exceptionService = pipeline.service(classOf[ExceptionService])
-      branchExceptionPort = exceptionService.newExceptionPort(branchStage)
-    }
+    val exceptionService = pipeline.service(classOf[ExceptionService])
+    branchExceptionPort = exceptionService.newExceptionPort(branchStage)
   }
 
   override def build(pipeline: VexRiscv): Unit = {
@@ -206,13 +204,11 @@ class BranchPlugin(earlyBranch : Boolean,
       jumpInterface.payload := input(BRANCH_CALC)
       arbitration.flushNext setWhen(jumpInterface.valid)
 
-      if(catchAddressMisalignedForReal) {
-        branchExceptionPort.valid := arbitration.isValid  && input(BRANCH_DO) && jumpInterface.payload(1)
-        branchExceptionPort.code := 0
-        branchExceptionPort.badAddr := jumpInterface.payload
+      branchExceptionPort.valid := arbitration.isValid  && input(BRANCH_DO) && (jumpInterface.payload > U(pipeline.executeLimit))
+      branchExceptionPort.code := 1
+      branchExceptionPort.badAddr := jumpInterface.payload
 
-        if(branchStage == execute) branchExceptionPort.valid clearWhen(service(classOf[HazardService]).hazardOnExecuteRS)
-      }
+      if(branchStage == execute) branchExceptionPort.valid clearWhen(service(classOf[HazardService]).hazardOnExecuteRS)
     }
   }
 

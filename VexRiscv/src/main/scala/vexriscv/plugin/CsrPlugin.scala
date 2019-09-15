@@ -557,6 +557,9 @@ class CsrPlugin(val config: CsrPluginConfig) extends Plugin[VexRiscv] with Excep
       READ_WRITE(0x9C0, supervisorMaskCsr)
       val supervisorPendingsCsr = Reg(Bits(xlen bits))
       READ_WRITE(0xDC0, supervisorPendingsCsr)
+
+      // add execute limit in custom CSR area
+      READ_WRITE(0x800, pipeline.executeLimit)
       
 
       if(supervisorGen) {
